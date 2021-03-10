@@ -170,14 +170,16 @@ $( document ).ready(function() {
     //reviews-slider
     $(".item-main").slick({
         slidesToShow: 1,
+        slidesToScroll: 1,
         arrows: false,
-        infinite: true,
+        infinite: false,
         fade: true,
         autoplay: true,
         autoplaySpeed: 6000,
         draggable: false,
         arrows: true,
-        dots: true,
+        dots: false,
+        accessibility: false,
         prevArrow: '<button class="slick-prev slick-arrow"><img src="img/white-arrow-left.svg" alt=""></button>',
         nextArrow: '<button class="slick-next slick-arrow"><img src="img/white-arrow-right.svg" alt=""></button>',
         asNavFor: ".item-nav",
@@ -364,7 +366,10 @@ $( document ).ready(function() {
     });
     $(document).on('click','.menu-column > .title', function() {
         $(this).toggleClass('active');
+        $('.menu-column ul').slideUp();
+        $(this).closest('.menu-column').addClass('active');
         $(this).closest('.menu-column').find('ul').slideToggle('medium');
+        return false;
     });
     var navContent = $('.desktop-nav').html();
     if ($(window).width() < 991) {   

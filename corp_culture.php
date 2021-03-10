@@ -440,7 +440,7 @@
 				</div>
 			</div>
 		</div>		
-		<div class="section section-team">
+		<div class="section section-team-banner">
 			<div class="container">
 				<div class="team-envelope">
 					<p>

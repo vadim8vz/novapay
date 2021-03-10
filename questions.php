@@ -141,8 +141,7 @@
 										</div>
 									</div>	
 									<div class="col-xl-8">
-										<label class="form-wrapper-default w-half js-add-file">
-											<span class="or d-block d-md-none">або</span>
+										<label class="form-wrapper-default w-half js-add-file to-right">
 											<input type="file" class="file-control" style="display: none">
 											<a href="javascript:void(0)" class="link">Завантажити файл</a>
 											<span class="hidden-content">

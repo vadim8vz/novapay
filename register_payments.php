@@ -66,20 +66,20 @@
 			<div class="container">
 				<p class="head-title">Масові виплати як найкраще<br/> підходять </p>
 				<div class="row">
-					<div class="col-xl-4">
-						<div class="business-step">
+					<div class="col-xl-4 col-lg-4">
+						<div class="business-step-inner">
 							<img src="img/step-ico1.svg" alt="">
 							Фінансовим установам, які видають позики та кредити
 						</div>
 					</div>
-					<div class="col-xl-4">
-						<div class="business-step">
+					<div class="col-xl-4 col-lg-4">
+						<div class="business-step-inner">
 							<img src="img/step-ico2.svg" alt="">
 							Сільськогосподарським підприємствам, які платять за оренду земельних паїв
 						</div>
 					</div>
-					<div class="col-xl-4">
-						<div class="business-step">
+					<div class="col-xl-4 col-lg-4">
+						<div class="business-step-inner">
 							<img src="img/step-ico3.svg" alt="">
 							Торговим компаніям для розрахунку з клієнтами у разі повернення товару
 						</div>

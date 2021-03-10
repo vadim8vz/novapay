@@ -477,9 +477,13 @@ h3 {
 	transition: all 0.3s ease;
 	opacity: 0;
 	visibility: hidden;
-	@include media-max(md) {
+	@include media-max(lg) {
 		width: 100%;
-		z-index: 7;
+		z-index: 9;
+		top: 76px;
+	}
+	@include media-max(md) {
+		top: 56px;
 	}
 	.search-nav {
 		display: flex;
@@ -510,15 +514,26 @@ h3 {
 		visibility: visible;
 	}
 	.bottom-elems {
-		padding: 24px 16px 16px;
+		padding: 40px 16px 16px;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		@include media-max(md) {
+			padding-top: 24px;
+		}
 		.btn {
 			min-width: 100%;
 			min-height: 50px;
 			margin: 0 0 16px;
-			display: inline-flex !important;
+			display: none;
+			@include media-max(md) {
+				display: inline-flex !important;
+			}
 		}
 		.hot-line {
-			max-width: 100%;
+			max-width: 288px;
+			margin: 0 auto;
 		}
 	}
 	.mobile-nav {
@@ -1963,10 +1978,10 @@ header {
 			min-height: 363px;
 		}
 		@include media-max(md) {
-			padding: 32px 24px 16px;
+			padding: 32px 24px 24px;
 			flex-wrap: wrap;
 			justify-content: flex-end;
-			min-height: 363px;
+			min-height: 498px;
 		}
 		.inner-info {
 			max-width: 615px;
@@ -2010,7 +2025,7 @@ header {
 				font-size: 18px;
 				@include media-max(md) {
 					min-width: 100%;
-					margin: 165px 0 0;
+					margin: 185px 0 0;
 				}
 			}
 		}
@@ -2043,7 +2058,7 @@ header {
 		&.first-business {
 			.inner-img {
 				@include media-max(lg) {
-					bottom: 68px;
+					bottom: 90px;
 					position: absolute;
 					margin: 0;
 					top: auto;
@@ -2136,10 +2151,10 @@ header {
 .section-page-nav {
 	padding: 32px 0;
 	@include media-max(md) {
-		padding: 15px 0 5px;
+		padding: 15px 0 25px;
 	}
 	position: sticky;
-	z-index: 9;
+	z-index: 7;
 	background: #fff;
 	top: 54px;
 	.container {
@@ -2317,6 +2332,9 @@ header {
 		.row {
 			[class*=col-]:nth-last-child(1) {
 				padding-left: 0;
+				@include media-max(lg) {
+					padding-left: 15px;
+				}
 			}
 		}
 	}
@@ -2525,6 +2543,9 @@ header {
 		@include media-max(lg) {
 			padding-bottom: 56px;
 		}
+		.container {
+			overflow: hidden;
+		}
 		.head-title {
 			margin: 0 0 24px;
 			@include media-max(lg) {
@@ -2545,6 +2566,10 @@ header {
 			}
 			.tip {
 				margin: 0 0 0 5px;
+				small {
+					left: 0;
+					right: auto;
+				}
 			}
 		}
 	}
@@ -2644,6 +2669,9 @@ ul.colored-disc {
 			height: 24px;
 			border-radius: 50%;
 			background: #E7E6F4;
+			@include media-max(md) {
+				top: 18px;
+			}
 		}
 		&:after {
 			content: '';
@@ -3116,6 +3144,9 @@ ul.colored-disc {
 		padding: 64px 0 0px;
 		@include media-max(lg) {
 			padding: 56px 0 0;
+			br {
+				display: none;
+			}
 		}
 		.head-title {
 			margin: 0 0 35px;
@@ -3411,6 +3442,7 @@ ul.colored-disc {
 	border-radius: 8px;
 	@include media-max(lg) {
 		margin: 40px 0 0;
+		padding: 32px 24px;
 	}
 	.np-logo {
 		margin: 0 0 24px !important;
@@ -4144,14 +4176,13 @@ ul.colored-disc {
 	text-align: center;
 }
 
-.business-step {
+.business-step-inner {
 	font-size: 18px;
 	line-height: 22px;
 	@extend .semibold;
-	padding-bottom: 150px;
 	@include media-max(lg) {
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: flex-start;
 	}
 	img {
@@ -5055,17 +5086,24 @@ ul.colored-disc {
 }
 
 .section-vacancies-single {
-	padding: 24px 0 80px;
+	padding: 24px 0 60px;
+	@include media-max(md) {
+		padding-bottom: 0;
+		.container {
+			padding-bottom: 40px;
+			position: relative;
+		}
+	}
 	.top-btn {
 		min-width: 214px;
 		min-height: 50px;
 		font-size: 18px;
 		margin: 0 0 32px;
 		@include media-max(md) {
-			position: fixed;
-			bottom: 10px;
+			position: sticky;
+		    top: calc(100% - 65px);
 			left: 15px;
-			min-width: calc(100% - 30px);
+			min-width: 100%;
 			z-index: 8;
 			margin: 0;
 		}
@@ -5093,7 +5131,7 @@ ul.colored-disc {
 		border-radius: 14px;
 		@include media-max(md) {
 			padding: 36px 16px;
-			margin: 0 -15px;
+			margin: 0 -15px 85px;
 			min-width: calc(100% + 30px);
 		}
 		h2 {
@@ -5307,6 +5345,9 @@ ul.colored-disc {
 		margin: 0 0 24px;
 		img {
 			display: block;
+			@include media-max(md) {
+				max-width: 37px;
+			}
 		}
 		@include media-max(md) {
 			width: 64px;
@@ -5456,6 +5497,13 @@ ul.colored-disc {
 			}
 		}
 	}
+	.item-nav {
+		.slick-track {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
 	.nav-item {
 		display: flex;
 		align-items: center;
@@ -5504,7 +5552,7 @@ ul.colored-disc {
 		&.slick-current.slick-active.slick-slide[data-slick-index="0"] {
 			#countdown {
 				svg circle {
-					animation: countdown 6s linear infinite forwards;
+					animation: countdown 6.5s linear infinite forwards;
 				}
 			}
 		}
@@ -5800,13 +5848,13 @@ ul.colored-disc {
 	}
 }
 
-.section-team {
+.section-team-banner {
 	padding: 40px 0 80px;
 	@include media-max(lg) {
 		padding: 64px 0 56px;
 	}
 	@include media-max(md) {
-		padding: 26px 0 ;
+		padding: 40px 0 26px;
 	}
 }
 
@@ -5884,6 +5932,10 @@ ul.colored-disc {
 			height: 50px;
 			font-size: 18px;
 			margin: 0 24px 0 0;
+			border-color: $grey_30 !important;
+			&:after {
+				background: $grey_30;
+			}
 			@include media-max(md) {
 				margin: 0 0 24px;
 			}
@@ -6012,6 +6064,11 @@ ul.colored-disc {
 				display: none;
 			}
 		}
+		&.to-right {
+			@include media-max(md) {
+				justify-content: flex-end;
+			}
+		}
 	}
 	&.filed {
 		.or {
@@ -6071,7 +6128,7 @@ ul.colored-disc {
 		}
 		small {
 			position: absolute;
-		    bottom: 2px;
+		    bottom: 1px;
 		    left: 0;
 		    display: inline-flex;
 		    line-height: 1;
@@ -7906,9 +7963,8 @@ ul.colored-disc {
 		}
 		@include media-max(md) {
 			width: 100%;
-			&:nth-last-child(1) {
-				margin: 16px 0 0 !important;
-			}
+			max-width: 288px;
+			margin: 8px 0 !important;
 		}
 		&.private {
 			background: $purple_light;
@@ -8117,6 +8173,13 @@ ul.colored-disc {
 	line-height: 21px;
 	@include media-max(lg) {
 		padding: 24px;
+	}
+	p {
+		letter-spacing: normal;
+		span {
+			letter-spacing: normal;
+			@extend .semibold;
+		}
 	}
 	&.active {
 		border-color: #F5F6F8;

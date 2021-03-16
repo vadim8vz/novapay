@@ -86,7 +86,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section section-step second online-step">
+		<div class="section section-step second online-step w-faq">
 			<img src="img/step-bg.png" class="step-bg" alt="">
 			<div class="container">
 				<p class="head-title">Як прив’язати картку до<br/> мобільного додатку</p>

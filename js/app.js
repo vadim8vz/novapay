@@ -77,7 +77,7 @@ $( document ).ready(function() {
         slickInduvidual.slick({
             infinite: true,
             arrows: false,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 3000,
             fade: true,
             slidesToShow: +$(this).attr('data-items-xl'),
@@ -224,6 +224,11 @@ $( document ).ready(function() {
             },
         ],
     });
+
+    console.log($('.item-nav .nav-item').length);
+    if ( $('.item-nav .nav-item').length <= 6 ) {
+        $('.item-nav').addClass('centered');
+    }
 
     //to top arrow
     $(window).scroll(function() {

@@ -55,7 +55,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section section-step second online-step" id="how">
+		<div class="section section-step second online-step w-faq" id="how">
 			<img src="img/step-bg.png" class="step-bg" alt="">
 			<div class="container">
 				<p class="head-title">Як сплатити за іншу людину</p>

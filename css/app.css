@@ -1424,6 +1424,144 @@ header .submenu.w-half ul.arrows li:nth-last-child(1) {
   }
 }
 
+.main-slider {
+  /*	.full-img-wrapper {
+  	    position: absolute;
+  		right: -402px;
+  		bottom: -252px;
+  		overflow: hidden;
+  	    border-radius: 150px;
+  		transition: transform 0.35s linear;
+  	    transform-origin: bottom right;
+  	    transition-timing-function: ease-in-out;
+  	    transform-style: preserve-3D;
+  	    @include media-max(lg) {
+  			display: none;
+  		}
+  		img {
+  	        width: 1081px;
+  		    height: 1061px;
+  		    object-fit: cover;
+  		    object-position: center;
+  		    transform: rotate(-60deg) scale(.7);
+  		    border-radius: 150px;
+  		}
+  	}
+  	&__item {
+  		padding: 56px;
+  		background: $grey_10;
+  		border-radius: 24px;
+  		min-height: 619px;
+  		position: relative;
+  		overflow: hidden;
+  		@include media-max(lg) {
+  			min-height: 600px;
+  			padding: 48px;
+  			.btn {
+  				font-size: 18px;
+  				min-width: 164px;
+  				min-height: 50px;
+  				@include media-max(md) {
+  					display: none;
+  				}
+  			}
+  		}
+  		@include media-max(md) {
+  			padding: 32px 24px;
+  			min-height: 471px;
+  			margin: 0 8px 0 0;
+  		}
+  		&--subtitle {
+  			color: $graffit;
+  			font-size: 16px;
+  			line-height: 19px;
+  			margin: 0 0 56px;
+  		}
+  		&--step {
+  			position: absolute;
+  			left: 0;
+  			bottom: 0;
+  			width: 553px;
+  			background: $grey_30;
+  			border-top-right-radius: 24px;
+  			display: flex;
+  			align-items: center;
+  			justify-content: flex-start;
+  			z-index: 3;
+  			@include media-max(lg) {
+  				display: none;
+  			}
+  			.step-image {
+  				width: 211px;
+  				margin: 0 24px 0 0;
+  				overflow: hidden;
+  				img {
+  					object-fit: cover;
+  					object-position: center;
+  					height: 89px;
+  					width: 100%;
+  					transition: all 0.5s ease;
+  				}
+  			}
+  			.step-info {
+  				max-width: 240px;
+  				margin: 0 30px 0 0;
+  				span {
+  					@extend .semibold;
+  					font-size: 12px;
+  					line-height: 15px;
+  					letter-spacing: 0.05em;
+  					text-transform: uppercase;
+  					color: $graffit;
+  					opacity: 0.5;
+  					display: block;
+  					margin: 0 0 4px;
+  				}
+  				p {
+  					@extend .bold;
+  					line-height: 16px;
+  					color: $graffit;
+  				}
+  			}
+  		}
+  		&.slick-current {
+  			.full-img-wrapper {
+  				transform: rotate(0deg);
+  				opacity: 1;
+  			}
+  			.step-image {
+  				img {
+  					opacity: 1;
+  					transform: translateY(0);
+  				}
+  			}
+  		}
+  		&.nextAnimation {
+  			.full-img-wrapper {
+  				transform: rotate(-55deg);
+  				opacity: 0;
+  			}
+  			.step-image {
+  				img {
+  					opacity: 0;
+  					transform: translateY(-20px);
+  				}
+  			}
+  		}
+  		&.prevAnimation {
+  			.full-img-wrapper {
+  				transform: rotate(55deg);
+  				opacity: 0;
+  			}
+  			.step-image {
+  				img {
+  					opacity: 0;
+  					transform: translateY(20px);
+  				}
+  			}
+  		}
+  	}*/
+}
 .main-slider .subheading {
   color: #57B68B;
 }
@@ -2276,12 +2414,6 @@ header .submenu.w-half ul.arrows li:nth-last-child(1) {
 .section-feedback .feedback-envelope:hover .head-title img {
   transform: scale(1.06);
 }
-.section-feedback .feedback-envelope:hover .btn {
-  background: #DD1D18;
-}
-.section-feedback .feedback-envelope:hover .btn img {
-  filter: brightness(0) invert(1);
-}
 .section-feedback.purple {
   padding-top: 0;
 }
@@ -2314,6 +2446,7 @@ header .submenu.w-half ul.arrows li:nth-last-child(1) {
     flex-wrap: wrap;
     justify-content: flex-end;
     min-height: 498px;
+    border-radius: 6px;
   }
 }
 .section-inner .inner-envelope .inner-info {
@@ -2364,8 +2497,10 @@ header .submenu.w-half ul.arrows li:nth-last-child(1) {
 }
 @media (max-width: 767px) {
   .section-inner .inner-envelope .inner-info .btn {
-    min-width: 100%;
-    margin: 185px 0 0;
+    width: calc(100% - 50px);
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
   }
 }
 .section-inner .inner-envelope .inner-img {
@@ -2505,7 +2640,7 @@ header .submenu.w-half ul.arrows li:nth-last-child(1) {
 }
 @media (max-width: 767px) {
   .section-page-nav {
-    padding: 15px 0 25px;
+    padding: 15px 0 5px;
   }
 }
 .section-page-nav .container {
@@ -2560,9 +2695,6 @@ header .submenu.w-half ul.arrows li:nth-last-child(1) {
   padding: 0 0 8px;
   position: relative;
   white-space: nowrap;
-}
-.section-page-nav .container ul li a:hover {
-  color: #DD1D18;
 }
 @media (max-width: 991px) {
   .section-page-nav .container ul li a {
@@ -4793,12 +4925,14 @@ ul.colored-disc.mint li:after {
 .business-step-inner {
   font-size: 18px;
   line-height: 22px;
+  padding-bottom: 96px;
 }
 @media (max-width: 991px) {
   .business-step-inner {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    padding-bottom: 30px;
   }
 }
 .business-step-inner img {
@@ -6198,10 +6332,23 @@ ul.colored-disc.mint li:after {
   align-items: center;
   justify-content: center;
 }
-.reviews-slider .item-nav .slick-track {
+.reviews-slider .item-nav.centered .slick-track {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100% !important;
+  transform: none !important;
+}
+.reviews-slider .item-nav.centered .slick-list {
+  padding: 0 !important;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.reviews-slider .item-nav.centered .slick-list .nav-item {
+  float: none !important;
 }
 .reviews-slider .nav-item {
   display: flex;
@@ -8178,7 +8325,6 @@ ul.colored-disc.mint li:after {
   font-size: 14px;
   line-height: 17px;
   color: #7B8B9D;
-  letter-spacing: 1px;
   text-transform: initial;
   margin: 3px 0 0;
 }
@@ -9104,12 +9250,15 @@ ul.colored-disc.mint li:after {
   }
 }
 .section-step.w-faq {
-  padding-bottom: 280px;
+  padding-bottom: 280px !important;
 }
 @media (max-width: 991px) {
   .section-step.w-faq {
-    padding-bottom: 100px;
+    padding-bottom: 100px !important;
   }
+}
+.section-step.w-shadow .container {
+  overflow: visible !important;
 }
 
 .section-download.verif-download {

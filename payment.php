@@ -151,7 +151,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section section-step step-payment second w-faq" id="how2">
+		<div class="section section-step step-payment second w-faq w-shadow" id="how2">
 			<img src="img/step-bg.png" class="step-bg" alt="">
 			<div class="container">
 				<p class="head-title">Як сплатити за договором</p>

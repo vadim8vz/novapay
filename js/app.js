@@ -19,7 +19,7 @@ $( document ).ready(function() {
     //inner product page nav
     var lastId,
         anchorMenu = $(".section-page-nav"),
-        anchorMenuHeight = anchorMenu.outerHeight()+45,
+        anchorMenuHeight = anchorMenu.outerHeight()+65,
         menuItems = anchorMenu.find("a"),
         scrollItems = menuItems.map(function(){
           var item = $($(this).attr("href"));
@@ -335,6 +335,8 @@ $( document ).ready(function() {
             <a href="questions_fop.php">questions_fop.php</a>\n\
             <a href="verification.php">verification.php</a>\n\
             <a href="payment_secure.php">payment_secure.php</a>\n\
+            <a href="enrollment.php">enrollment.php</a>\n\
+            <a href="text_page.php">text_page.php</a>\n\
         </div>\n\
     </div>'
 

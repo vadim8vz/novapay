@@ -176,7 +176,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.bold, footer .title, .answer-block .question, .section-form .envelope .form-title, .section-error a, .default-content h4, .default-content h3, .section-experience .exp-item p, .section-team-single .title, .page-link p, .success-modal .modal-dialog .modal-content p, .resume-modal .modal-dialog .modal-content .right-side .title, .resume-modal .modal-dialog .modal-content .left-side p.subtitle, .team-envelope p span, .worth-item p, .vacancy-item a, .news-inner-item .news-item__info p, .section-inner-headings .contact-info .line span, .section-partners .container p, .section-howitworks.third .multiple-service .service-envelope p.title, .section-howitworks .how .title, .section-howitworks .section-headings .subtitle, .a-inner-item .info p, .payment-item, .section-info .subtitle, .ex-item__info p, .collapse-title p, .section-step.step-payment .subtitle, .section-step .step-number, .news-item__title, .main-slider__item--step .step-info p, header .submenu .title, .hot-line .line-text small, h3, h2 {
+.bold, footer .title, .section-how .how-title, .answer-block .question, .section-form .envelope .form-title, .section-error a, .default-content h4, .default-content h3, .section-experience .exp-item p, .section-team-single .title, .page-link p, .success-modal .modal-dialog .modal-content p, .resume-modal .modal-dialog .modal-content .right-side .title, .resume-modal .modal-dialog .modal-content .left-side p.subtitle, .team-envelope p span, .worth-item p, .vacancy-item a, .news-inner-item .news-item__info p, .section-inner-headings .contact-info .line span, .section-partners .container p, .section-howitworks.third .multiple-service .service-envelope p.title, .section-howitworks .how .title, .section-howitworks .section-headings .subtitle, .a-inner-item .info p, .payment-item, .section-info .subtitle, .ex-item__info p, .collapse-title p, .section-step.step-payment .subtitle, .section-step .step-number, .news-item__title, .main-slider__item--step .step-info p, header .submenu .title, .hot-line .line-text small, h6, h5, h3, h2 {
   font-family: "Proxima Nova Bold";
 }
 
@@ -185,11 +185,11 @@ input::-webkit-inner-spin-button {
   font-family: "Proxima Nova Extrabold";
 }
 
-.semibold, footer .w-arrow, .section-online-secure .section-headings .subtitle, .answer-block .answer-content .green, .section-answers .section-headings .subtitle, .verif-info-elem p span, .form-nav ul li a, .section-form .envelope .nav-tabs li a.active, .section-form .envelope .success-message a, .section-form p.subtitle, .section-error p, .default-content .share p, .default-content .author p, .default-content .date, .section-post .post-nav .back, .section-combine .director p, .section-combine .nav-tabs li a, .section-experience .exp-a p, .publications .container .publication-envelope .publication, .section-team-single .timecode .time-item span, .section-team-single .timecode .time-item p, .section-team-single .profile-info .add-info, .section-team-single .profile-info .post, .section-team-single .profile-info .back, .team-item-footer p, .alert, .section-tariffs .tariffs-table table tbody tr td b, .section-tariffs .tariffs-table table tbody tr td:nth-child(1), .section-tariffs .tariffs-table table thead tr th, .resume-modal .modal-dialog .modal-content .right-side .form-wrapper-default.js-add-file .hidden-content p, .resume-modal .modal-dialog .modal-content .left-side ul li, .form-wrapper-default.js-add-file .hidden-content p, .form-wrapper-default .form-group span, .reviews-slider .nav-item p, .reviews-slider .slider-item .review-content .author-info p, .reviews-slider .slider-item .review-content .review, .info-subtitle, .section-vacancies-single .vacancy-form .form-group-wrapper.js-add-file .hidden-content p, .section-vacancies-single .vacancy-form .form-group-wrapper .form-group span, .section-vacancies-single .vacancy-form .subtitle, .section-vacancies-single .title, .vacancy-nav a, .news-inner-item .news-item__info small, .tags li a, .section-map .container .map-info-heading .adress, .section-map .top-nav .contact-link, .section-documents .container .nav-tabs li a, .section-inner-headings .contact-info .line, .business-step-inner, .section-howitworks .add-info, .section-howitworks .section-headings .subheadings, .instruction .left-side p, .instruction .left-side span, .online-payment p, .section-download .download-wrapper p, .section-step.second .terms .title, .section-page-nav .container ul li.active a, .section-page-nav .container ul li a, .section-inner .inner-envelope .inner-info .subtitle, .section-inner .inner-envelope .inner-info .subheadings, .news-item__date, .section-about .about-item p, .advantages-row .advantage-title span, .main-slider__item--step .step-info span, header .submenu ul li a, header ul a, .add-info, .mob-nav .mobile-nav ul li.w-submenu .submenu .menu-column ul li a, .mob-nav .mobile-nav ul li a, .hot-line .line-text, .link, .subheading, .btn {
+.semibold, footer .w-arrow, .default-content a, .section-tarif .tariffs-table table tbody tr td[data-title], .section-tarif .tariffs-table table tbody tr td:nth-last-child(1), .section-tarif .section-headings .subheading, .section-online-secure .section-headings .subtitle, .answer-block .answer-content .green, .section-answers .section-headings .subtitle, .verif-info-elem p span, .form-nav ul li a, .section-form .envelope .nav-tabs li a.active, .section-form .envelope .success-message a, .section-form p.subtitle, .section-error p, .default-content table tbody tr td b, .default-content table tbody tr td:nth-child(1), .default-content table th, .default-content label, .default-content .share p, .default-content .author p, .default-content .date, .section-post .post-nav .back, .section-combine .director p, .section-combine .nav-tabs li a, .section-experience .exp-a p, .publications .container .publication-envelope .publication, .section-team-single .timecode .time-item span, .section-team-single .timecode .time-item p, .section-team-single .profile-info .add-info, .section-team-single .profile-info .post, .section-team-single .profile-info .back, .team-item-footer p, .alert, .tariffs-table table tbody tr td b, .tariffs-table table tbody tr td:nth-child(1), .tariffs-table table thead tr th, .resume-modal .modal-dialog .modal-content .right-side .form-wrapper-default.js-add-file .hidden-content p, .resume-modal .modal-dialog .modal-content .left-side ul li, .form-wrapper-default.js-add-file .hidden-content p, .form-wrapper-default .form-group span, .reviews-slider .nav-item p, .reviews-slider .slider-item .review-content .author-info p, .reviews-slider .slider-item .review-content .review, .info-subtitle, .section-vacancies-single .vacancy-form .form-group-wrapper.js-add-file .hidden-content p, .section-vacancies-single .vacancy-form .form-group-wrapper .form-group span, .section-vacancies-single .vacancy-form .subtitle, .section-vacancies-single .title, .vacancy-nav a, .news-inner-item .news-item__info small, .tags li a, .section-map .container .map-info-heading .adress, .section-map .top-nav .contact-link, .section-documents .container .nav-tabs li a, .section-inner-headings .contact-info .line, .business-step-inner, .section-howitworks .add-info, .section-howitworks .section-headings .subheadings, .instruction .left-side p, .instruction .left-side span, .online-payment p, .section-download .download-wrapper p, .section-step.second .terms .title, .section-page-nav .container ul li.active a, .section-page-nav .container ul li a, .section-inner .inner-envelope .inner-info .subtitle, .section-inner .inner-envelope .inner-info .subheadings, .news-item__date, .section-about .about-item p, .advantages-row .advantage-title span, .main-slider__item--step .step-info span, header .submenu ul li a, header ul a, .add-info, .mob-nav .mobile-nav ul li.w-submenu .submenu .menu-column ul li a, .mob-nav .mobile-nav ul li a, .hot-line .line-text, .link, .subheading, .btn {
   font-family: "Proxima Nova Semibold";
 }
 
-.regular, .section-howitworks.verif-how .subtitle, .default-content .author p span, .section-combine .director p span, .success-modal .modal-dialog .modal-content p span, .reviews-slider .slider-item .review-content .author-info p span, .section-payment .section-headings h2 span, .answer p, .tip small, header .submenu.w-half ul.arrows li a {
+.regular, .section-tarif .tariffs-table table tbody tr td, .section-howitworks.verif-how .subtitle, .default-content .author p span, .section-combine .director p span, .success-modal .modal-dialog .modal-content p span, .reviews-slider .slider-item .review-content .author-info p span, .section-payment .section-headings h2 span, .answer p, .tip small, header .submenu.w-half ul.arrows li a {
   font-family: "Proxima Nova Regular";
 }
 
@@ -332,6 +332,7 @@ h2 {
   color: #4C5866;
   font-size: 32px;
   line-height: 46px;
+  margin: 0 0 15px;
 }
 @media (max-width: 991px) {
   h2 {
@@ -350,12 +351,27 @@ h3 {
   color: #4C5866;
   font-size: 24px;
   line-height: 28px;
+  margin: 0 0 15px;
 }
 @media (max-width: 991px) {
   h3 {
     font-size: 18px;
     line-height: 20px;
   }
+}
+
+h5 {
+  color: #4C5866;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0 0 15px;
+}
+
+h6 {
+  color: #4C5866;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 15px;
 }
 
 .btn {
@@ -1425,142 +1441,142 @@ header .submenu.w-half ul.arrows li:nth-last-child(1) {
 }
 
 .main-slider {
-  /*	.full-img-wrapper {
-  	    position: absolute;
-  		right: -402px;
-  		bottom: -252px;
-  		overflow: hidden;
-  	    border-radius: 150px;
-  		transition: transform 0.35s linear;
-  	    transform-origin: bottom right;
-  	    transition-timing-function: ease-in-out;
-  	    transform-style: preserve-3D;
-  	    @include media-max(lg) {
-  			display: none;
-  		}
-  		img {
-  	        width: 1081px;
-  		    height: 1061px;
-  		    object-fit: cover;
-  		    object-position: center;
-  		    transform: rotate(-60deg) scale(.7);
-  		    border-radius: 150px;
-  		}
+  /*.full-img-wrapper {
+      position: absolute;
+  	right: -402px;
+  	bottom: -252px;
+  	overflow: hidden;
+      border-radius: 150px;
+  	transition: transform 0.35s linear;
+      transform-origin: bottom right;
+      transition-timing-function: ease-in-out;
+      transform-style: preserve-3D;
+      @include media-max(lg) {
+  		display: none;
   	}
-  	&__item {
-  		padding: 56px;
-  		background: $grey_10;
-  		border-radius: 24px;
-  		min-height: 619px;
-  		position: relative;
-  		overflow: hidden;
-  		@include media-max(lg) {
-  			min-height: 600px;
-  			padding: 48px;
-  			.btn {
-  				font-size: 18px;
-  				min-width: 164px;
-  				min-height: 50px;
-  				@include media-max(md) {
-  					display: none;
-  				}
-  			}
-  		}
-  		@include media-max(md) {
-  			padding: 32px 24px;
-  			min-height: 471px;
-  			margin: 0 8px 0 0;
-  		}
-  		&--subtitle {
-  			color: $graffit;
-  			font-size: 16px;
-  			line-height: 19px;
-  			margin: 0 0 56px;
-  		}
-  		&--step {
-  			position: absolute;
-  			left: 0;
-  			bottom: 0;
-  			width: 553px;
-  			background: $grey_30;
-  			border-top-right-radius: 24px;
-  			display: flex;
-  			align-items: center;
-  			justify-content: flex-start;
-  			z-index: 3;
-  			@include media-max(lg) {
+  	img {
+          width: 1081px;
+  	    height: 1061px;
+  	    object-fit: cover;
+  	    object-position: center;
+  	    transform: rotate(-60deg) scale(.7);
+  	    border-radius: 150px;
+  	}
+  }
+  &__item {
+  	padding: 56px;
+  	background: $grey_10;
+  	border-radius: 24px;
+  	min-height: 619px;
+  	position: relative;
+  	overflow: hidden;
+  	@include media-max(lg) {
+  		min-height: 600px;
+  		padding: 48px;
+  		.btn {
+  			font-size: 18px;
+  			min-width: 164px;
+  			min-height: 50px;
+  			@include media-max(md) {
   				display: none;
   			}
-  			.step-image {
-  				width: 211px;
-  				margin: 0 24px 0 0;
-  				overflow: hidden;
-  				img {
-  					object-fit: cover;
-  					object-position: center;
-  					height: 89px;
-  					width: 100%;
-  					transition: all 0.5s ease;
-  				}
-  			}
-  			.step-info {
-  				max-width: 240px;
-  				margin: 0 30px 0 0;
-  				span {
-  					@extend .semibold;
-  					font-size: 12px;
-  					line-height: 15px;
-  					letter-spacing: 0.05em;
-  					text-transform: uppercase;
-  					color: $graffit;
-  					opacity: 0.5;
-  					display: block;
-  					margin: 0 0 4px;
-  				}
-  				p {
-  					@extend .bold;
-  					line-height: 16px;
-  					color: $graffit;
-  				}
+  		}
+  	}
+  	@include media-max(md) {
+  		padding: 32px 24px;
+  		min-height: 471px;
+  		margin: 0 8px 0 0;
+  	}
+  	&--subtitle {
+  		color: $graffit;
+  		font-size: 16px;
+  		line-height: 19px;
+  		margin: 0 0 56px;
+  	}
+  	&--step {
+  		position: absolute;
+  		left: 0;
+  		bottom: 0;
+  		width: 553px;
+  		background: $grey_30;
+  		border-top-right-radius: 24px;
+  		display: flex;
+  		align-items: center;
+  		justify-content: flex-start;
+  		z-index: 3;
+  		@include media-max(lg) {
+  			display: none;
+  		}
+  		.step-image {
+  			width: 211px;
+  			margin: 0 24px 0 0;
+  			overflow: hidden;
+  			img {
+  				object-fit: cover;
+  				object-position: center;
+  				height: 89px;
+  				width: 100%;
+  				transition: all 0.5s ease;
   			}
   		}
-  		&.slick-current {
-  			.full-img-wrapper {
-  				transform: rotate(0deg);
+  		.step-info {
+  			max-width: 240px;
+  			margin: 0 30px 0 0;
+  			span {
+  				@extend .semibold;
+  				font-size: 12px;
+  				line-height: 15px;
+  				letter-spacing: 0.05em;
+  				text-transform: uppercase;
+  				color: $graffit;
+  				opacity: 0.5;
+  				display: block;
+  				margin: 0 0 4px;
+  			}
+  			p {
+  				@extend .bold;
+  				line-height: 16px;
+  				color: $graffit;
+  			}
+  		}
+  	}
+  	&.slick-current {
+  		.full-img-wrapper {
+  			transform: rotate(0deg);
+  			opacity: 1;
+  		}
+  		.step-image {
+  			img {
   				opacity: 1;
-  			}
-  			.step-image {
-  				img {
-  					opacity: 1;
-  					transform: translateY(0);
-  				}
+  				transform: translateY(0);
   			}
   		}
-  		&.nextAnimation {
-  			.full-img-wrapper {
-  				transform: rotate(-55deg);
+  	}
+  	&.nextAnimation {
+  		.full-img-wrapper {
+  			transform: rotate(-55deg);
+  			opacity: 0;
+  		}
+  		.step-image {
+  			img {
   				opacity: 0;
-  			}
-  			.step-image {
-  				img {
-  					opacity: 0;
-  					transform: translateY(-20px);
-  				}
+  				transform: translateY(-20px);
   			}
   		}
-  		&.prevAnimation {
-  			.full-img-wrapper {
-  				transform: rotate(55deg);
+  	}
+  	&.prevAnimation {
+  		.full-img-wrapper {
+  			transform: rotate(55deg);
+  			opacity: 0;
+  		}
+  		.step-image {
+  			img {
   				opacity: 0;
-  			}
-  			.step-image {
-  				img {
-  					opacity: 0;
-  					transform: translateY(20px);
-  				}
+  				transform: translateY(20px);
   			}
   		}
-  	}*/
+  	}
+  }*/
 }
 .main-slider .subheading {
   color: #57B68B;
@@ -4360,6 +4376,7 @@ ul.colored-disc.mint li:after {
 .section-advantages-business {
   position: relative;
   padding: 100px 0 150px;
+  z-index: 4;
 }
 @media (max-width: 991px) {
   .section-advantages-business {
@@ -6064,6 +6081,7 @@ ul.colored-disc.mint li:after {
   padding: 13px 0 13px 30px;
   max-width: 300px;
   overflow: hidden;
+  margin: 0;
   text-overflow: ellipsis;
 }
 .section-vacancies-single .vacancy-form .form-group-wrapper.js-add-file .hidden-content p:before {
@@ -6951,6 +6969,7 @@ ul.colored-disc.mint li:after {
   padding: 3px 0 3px 30px;
   max-width: 300px;
   overflow: hidden;
+  margin: 0;
   text-overflow: ellipsis;
 }
 .form-wrapper-default.js-add-file .hidden-content p:before {
@@ -7182,6 +7201,7 @@ ul.colored-disc.mint li:after {
   position: relative;
   padding: 3px 0 3px 30px;
   max-width: 300px;
+  margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -7315,21 +7335,28 @@ ul.colored-disc.mint li:after {
     padding: 40px 0 24px;
   }
 }
-.section-tariffs .tariffs-table {
+.section-tariffs .row {
+  margin: 0 -12.5px;
+}
+.section-tariffs .row [class*=col-] {
+  padding: 0 12.5px;
+}
+
+.tariffs-table {
   border: 2px solid #EEF0F2;
   border-radius: 14px;
   margin: 0 0 40px;
   overflow: hidden;
 }
-.section-tariffs .tariffs-table table {
+.tariffs-table table {
   width: 100%;
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table {
+  .tariffs-table table {
     display: block;
   }
 }
-.section-tariffs .tariffs-table table thead tr th {
+.tariffs-table table thead tr th {
   padding: 32px 24px 24px;
   font-size: 12px;
   line-height: 15px;
@@ -7338,31 +7365,31 @@ ul.colored-disc.mint li:after {
   color: #7B8B9D;
   border-right: 2px solid #EEF0F2;
 }
-.section-tariffs .tariffs-table table thead tr th:nth-last-child(1) {
+.tariffs-table table thead tr th:nth-last-child(1) {
   border: none;
 }
 @media (max-width: 991px) {
-  .section-tariffs .tariffs-table table thead tr th:nth-child(2) {
+  .tariffs-table table thead tr th:nth-child(2) {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table thead tr th {
+  .tariffs-table table thead tr th {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table tbody {
+  .tariffs-table table tbody {
     display: block;
   }
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table tbody tr {
+  .tariffs-table table tbody tr {
     display: block;
     padding: 24px;
   }
 }
-.section-tariffs .tariffs-table table tbody tr td {
+.tariffs-table table tbody tr td {
   padding: 24px 10px 24px 23px;
   font-size: 16px;
   line-height: 21px;
@@ -7370,25 +7397,25 @@ ul.colored-disc.mint li:after {
   vertical-align: middle;
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table tbody tr td:nth-child(1) {
+  .tariffs-table table tbody tr td:nth-child(1) {
     font-size: 18px;
     line-height: 23px;
     padding-bottom: 16px;
   }
 }
-.section-tariffs .tariffs-table table tbody tr td:nth-last-child(1) {
+.tariffs-table table tbody tr td:nth-last-child(1) {
   border: none;
 }
 @media (max-width: 991px) {
-  .section-tariffs .tariffs-table table tbody tr td {
+  .tariffs-table table tbody tr td {
     padding-right: 24px;
   }
-  .section-tariffs .tariffs-table table tbody tr td:nth-child(2) {
+  .tariffs-table table tbody tr td:nth-child(2) {
     display: none;
   }
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table tbody tr td {
+  .tariffs-table table tbody tr td {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -7397,32 +7424,32 @@ ul.colored-disc.mint li:after {
     padding: 0;
   }
 }
-.section-tariffs .tariffs-table table tbody tr td .mobile {
+.tariffs-table table tbody tr td .mobile {
   display: block;
   width: 100%;
   font-size: 16px;
   width: calc(100% - 134px);
 }
-.section-tariffs .tariffs-table table tbody tr td .mobile + p {
+.tariffs-table table tbody tr td .mobile + p {
   margin: 16px 0 0;
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table tbody tr td .mobile + p {
+  .tariffs-table table tbody tr td .mobile + p {
     margin: 0px 0 16px;
   }
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table tbody tr td .mobile {
+  .tariffs-table table tbody tr td .mobile {
     width: 100%;
     max-width: 100%;
   }
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table tbody tr td .mobile {
+  .tariffs-table table tbody tr td .mobile {
     margin: 0 0 16px;
   }
 }
-.section-tariffs .tariffs-table table tbody tr td .details {
+.tariffs-table table tbody tr td .details {
   max-width: 663px;
   display: flex;
   width: 100%;
@@ -7430,79 +7457,73 @@ ul.colored-disc.mint li:after {
   justify-content: flex-end;
 }
 @media (max-width: 991px) {
-  .section-tariffs .tariffs-table table tbody tr td .details {
+  .tariffs-table table tbody tr td .details {
     width: 500px;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table tbody tr td .details {
+  .tariffs-table table tbody tr td .details {
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
   }
 }
-.section-tariffs .tariffs-table table tbody tr td .details p {
+.tariffs-table table tbody tr td .details p {
   font-size: 14px;
   max-width: 410px;
 }
 @media (max-width: 991px) {
-  .section-tariffs .tariffs-table table tbody tr td .details p {
+  .tariffs-table table tbody tr td .details p {
     width: calc(100% - 134px);
   }
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table tbody tr td .details p {
+  .tariffs-table table tbody tr td .details p {
     width: 100%;
     max-width: 100%;
   }
 }
-.section-tariffs .tariffs-table table tbody tr td .details p a {
+.tariffs-table table tbody tr td .details p a {
   text-decoration: underline;
   color: #DD1D18;
 }
-.section-tariffs .tariffs-table table tbody tr td .details p a:hover {
+.tariffs-table table tbody tr td .details p a:hover {
   text-decoration: none;
 }
-.section-tariffs .tariffs-table table tbody tr td .details .btn {
+.tariffs-table table tbody tr td .details .btn {
   width: 99px;
   margin: 0 0 0 35px;
   min-width: 99px;
   min-height: 36px;
 }
 @media (max-width: 991px) {
-  .section-tariffs .tariffs-table table tbody tr td .details .btn {
+  .tariffs-table table tbody tr td .details .btn {
     font-size: 12px;
   }
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table tbody tr td .details .btn {
+  .tariffs-table table tbody tr td .details .btn {
     min-width: 100%;
     min-height: 36px;
     width: 100%;
     margin: 0;
   }
 }
-.section-tariffs .tariffs-table table tbody tr:nth-child(2n-1) td {
+.tariffs-table table tbody tr:nth-child(2n-1) td {
   background: #F5F6F8;
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table tbody tr:nth-child(2n-1) td {
+  .tariffs-table table tbody tr:nth-child(2n-1) td {
     background: transparent;
   }
 }
 @media (max-width: 767px) {
-  .section-tariffs .tariffs-table table tbody tr:nth-child(2n-1) {
+  .tariffs-table table tbody tr:nth-child(2n-1) {
     background: #F5F6F8;
   }
-}
-.section-tariffs .row {
-  margin: 0 -12.5px;
-}
-.section-tariffs .row [class*=col-] {
-  padding: 0 12.5px;
 }
 
 .alert {
@@ -8434,7 +8455,7 @@ ul.colored-disc.mint li:after {
   margin: 0 0 20px;
 }
 .default-content h4 {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 21px;
   margin: 0 0 16px;
 }
@@ -8496,6 +8517,339 @@ ul.colored-disc.mint li:after {
   height: auto;
   border-radius: 0;
   margin: 0;
+}
+.default-content dl {
+  margin: 0 0 15px;
+}
+.default-content dl dt {
+  margin: 0 0 10px;
+}
+.default-content dl dd {
+  margin: 0 0 0 25px;
+}
+.default-content ol {
+  list-style: none;
+  counter-reset: counter;
+  argin: 0 0 15px;
+}
+.default-content ol li {
+  counter-increment: counter;
+  margin: 0.25rem;
+}
+.default-content ol li:before {
+  content: counter(counter) ".";
+  color: #DD1D18;
+  display: inline-block;
+  line-height: 2rem;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+.default-content ul {
+  margin: 0 0 15px;
+}
+.default-content ul li {
+  margin: 0 0 28px;
+  line-height: 21px;
+  position: relative;
+  padding: 0 0 0 48px;
+}
+.default-content ul li:nth-last-child(1) {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .default-content ul li {
+    padding: 0 0 0 40px;
+    margin: 0 0 24px;
+  }
+}
+.default-content ul li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  opacity: 0.4;
+  background: #DD1D18;
+}
+@media (max-width: 767px) {
+  .default-content ul li:before {
+    top: 11px;
+  }
+}
+.default-content ul li:after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #DD1D18;
+}
+@media (max-width: 767px) {
+  .default-content ul li:after {
+    top: 6px;
+    transform: none;
+  }
+}
+.default-content fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  border-image: initial;
+  margin: 0 0 20px;
+}
+.default-content legend {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+  width: auto;
+}
+.default-content label {
+  font-size: 12px;
+  line-height: 16px;
+  color: #4C5866;
+  margin: 0 0 5px;
+}
+.default-content input, .default-content textarea {
+  background: #FFFFFF;
+  border: 1px solid #C4CBD4;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 15px;
+  margin: 0 0 15px;
+}
+.default-content textarea {
+  min-height: 120px;
+  padding: 10px 15px;
+}
+.default-content select {
+  background: url(../img/select-chevron.svg) 98% 55% no-repeat #fff;
+  border: 1px solid #C4CBD4;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 50px;
+  margin: 0 0 15px;
+  padding: 0 15px;
+  color: #4C5866;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  box-shadow: none;
+}
+.default-content table {
+  width: 100%;
+  border: 2px solid #EEF0F2;
+  border-radius: 8px;
+  margin: 0 0 15px;
+}
+@media (max-width: 767px) {
+  .default-content table {
+    display: block;
+  }
+}
+.default-content table th {
+  padding: 32px 24px 24px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #7B8B9D;
+  border-right: 2px solid #EEF0F2;
+  border-bottom: 2px solid #EEF0F2;
+}
+.default-content table th:nth-last-child(1) {
+  border-right: none;
+}
+@media (max-width: 991px) {
+  .default-content table th:nth-child(2) {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .default-content table th {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .default-content table tbody {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .default-content table tbody tr {
+    display: block;
+    padding: 24px;
+  }
+}
+.default-content table tbody tr td {
+  padding: 24px 10px 24px 23px;
+  font-size: 16px;
+  line-height: 21px;
+  border-right: 2px solid #EEF0F2;
+  border-bottom: 2px solid #EEF0F2;
+  vertical-align: middle;
+}
+@media (max-width: 767px) {
+  .default-content table tbody tr td:nth-child(1) {
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 16px;
+  }
+}
+.default-content table tbody tr td:nth-last-child(1) {
+  border-right: none;
+}
+@media (max-width: 991px) {
+  .default-content table tbody tr td {
+    padding-right: 24px;
+  }
+  .default-content table tbody tr td:nth-child(2) {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .default-content table tbody tr td {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: none;
+    padding: 0;
+  }
+}
+.default-content table tbody tr td .mobile {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  width: calc(100% - 134px);
+}
+.default-content table tbody tr td .mobile + p {
+  margin: 16px 0 0;
+}
+@media (max-width: 767px) {
+  .default-content table tbody tr td .mobile + p {
+    margin: 0px 0 16px;
+  }
+}
+@media (max-width: 767px) {
+  .default-content table tbody tr td .mobile {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .default-content table tbody tr td .mobile {
+    margin: 0 0 16px;
+  }
+}
+.default-content table tbody tr td .details {
+  max-width: 663px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media (max-width: 991px) {
+  .default-content table tbody tr td .details {
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 767px) {
+  .default-content table tbody tr td .details {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+.default-content table tbody tr td .details p {
+  font-size: 14px;
+  max-width: 410px;
+}
+@media (max-width: 991px) {
+  .default-content table tbody tr td .details p {
+    width: calc(100% - 134px);
+  }
+}
+@media (max-width: 767px) {
+  .default-content table tbody tr td .details p {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.default-content table tbody tr td .details p a {
+  text-decoration: underline;
+  color: #DD1D18;
+}
+.default-content table tbody tr td .details p a:hover {
+  text-decoration: none;
+}
+.default-content table tbody tr td .details .btn {
+  width: 99px;
+  margin: 0 0 0 35px;
+  min-width: 99px;
+  min-height: 36px;
+}
+@media (max-width: 991px) {
+  .default-content table tbody tr td .details .btn {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .default-content table tbody tr td .details .btn {
+    min-width: 100%;
+    min-height: 36px;
+    width: 100%;
+    margin: 0;
+  }
+}
+.default-content table tbody tr:nth-child(2n-1) td {
+  background: #F5F6F8;
+}
+@media (max-width: 767px) {
+  .default-content table tbody tr:nth-child(2n-1) td {
+    background: transparent;
+  }
+}
+@media (max-width: 767px) {
+  .default-content table tbody tr:nth-child(2n-1) {
+    background: #F5F6F8;
+  }
+}
+.default-content blockquote {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
 }
 
 .section-error {
@@ -9096,11 +9450,12 @@ ul.colored-disc.mint li:after {
   margin: 0 0 27px;
 }
 .check input {
-  position: absolute;
-  opacity: 0;
+  position: absolute !important;
+  pointer-events: none;
+  opacity: 0 !important;
   cursor: pointer;
-  height: 0;
-  width: 0;
+  height: 0 !important;
+  width: 0 !important;
 }
 .check .checkmark {
   position: absolute;
@@ -9137,6 +9492,49 @@ ul.colored-disc.mint li:after {
   -webkit-transform: rotate(45deg) translate(-50%, -50%);
   -ms-transform: rotate(45deg) translate(-50%, -50%);
   transform: rotate(45deg) translate(-50%, -50%);
+}
+
+.radio {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 28px;
+  cursor: pointer;
+  margin: 0 0 27px;
+}
+.radio input {
+  position: absolute !important;
+  pointer-events: none;
+  opacity: 0 !important;
+  cursor: pointer;
+  height: 0 !important;
+  width: 0 !important;
+}
+.radio .checkmark {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #FFFFFF;
+  border: 1px solid #A4AFC1;
+  border-radius: 50%;
+}
+.radio input:checked ~ .checkmark {
+  background: #DD1D18;
+  border: 1px solid #DD1D18;
+}
+.radio .checkmark:after {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+.radio input:checked ~ .checkmark:after {
+  opacity: 1;
+  visibility: visible;
 }
 
 .verif-headings {
@@ -9688,6 +10086,386 @@ ul.colored-disc.mint li:after {
 }
 .section-online-secure .text-link:hover {
   text-decoration: none;
+}
+
+.section-enroll {
+  padding: 95px 0 285px;
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 991px) {
+  .section-enroll {
+    padding: 20px 0 180px;
+    overflow: hidden;
+  }
+  .section-enroll [class*=col-] {
+    order: 1;
+  }
+  .section-enroll [class*=col-]:nth-last-child(1) {
+    order: 2 !important;
+  }
+  .section-enroll [class*=col-] .fast-img {
+    min-width: initial !important;
+    margin: 53px 0 0 !important;
+  }
+}
+@media (max-width: 991px) and (max-width: 767px) {
+  .section-enroll [class*=col-] .fast-img {
+    max-width: 165px;
+    margin: 31px 0 0 !important;
+  }
+}
+@media (max-width: 991px) {
+  .section-enroll .container {
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .section-enroll .container > .row {
+    max-width: 590px;
+  }
+}
+.section-enroll .enroll-bg {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+@media (max-width: 1230px) {
+  .section-enroll .enroll-bg {
+    height: 1000px;
+  }
+}
+@media (max-width: 991px) {
+  .section-enroll .enroll-bg {
+    height: 880px;
+    top: 300px;
+    min-width: 1440px;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+  }
+}
+@media (max-width: 767px) {
+  .section-enroll .enroll-bg {
+    height: 552px;
+    min-width: 1440px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 420px;
+  }
+}
+@media (max-width: 480px) {
+  .section-enroll .enroll-bg {
+    height: 820px;
+  }
+}
+.section-enroll .enroll-advantages {
+  margin: -75px 0 0;
+}
+@media (max-width: 991px) {
+  .section-enroll .enroll-advantages {
+    margin: 80px 0 0;
+  }
+  .section-enroll .enroll-advantages .a-inner-item img {
+    min-width: initial;
+    margin: 0 24px 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .section-enroll .enroll-advantages {
+    margin: 64px 0 0;
+  }
+}
+.section-enroll .enroll-advantages .head-title {
+  margin: 0 0 56px;
+}
+@media (max-width: 991px) {
+  .section-enroll .enroll-advantages .head-title {
+    margin: 0 0 45px;
+  }
+}
+@media (max-width: 767px) {
+  .section-enroll .enroll-advantages .head-title {
+    margin: 0 0 32px;
+  }
+}
+
+.section-tarif {
+  padding: 70px 0;
+  position: relative;
+  z-index: 3;
+}
+@media (max-width: 991px) {
+  .section-tarif {
+    padding: 0;
+  }
+}
+.section-tarif .section-headings {
+  margin: 0 0 24px;
+}
+.section-tarif .section-headings .subheading {
+  color: #DD1D18;
+  margin: 0 0 8px;
+}
+.section-tarif .description {
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0 0 40px;
+  padding: 0;
+}
+@media (max-width: 991px) {
+  .section-tarif .description {
+    margin: 0 0 30px;
+  }
+}
+.section-tarif .btn {
+  width: 244px;
+  min-height: 50px;
+  font-size: 18px;
+}
+@media (max-width: 991px) {
+  .section-tarif .tariffs-table {
+    max-width: 588px;
+  }
+}
+.section-tarif .tariffs-table table thead tr th {
+  padding: 19px 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #7B8B9D;
+  background: #FFFFFF;
+}
+@media (max-width: 991px) {
+  .section-tarif .tariffs-table table thead tr th {
+    display: table-cell;
+    padding: 16px 22px;
+  }
+}
+@media (max-width: 767px) {
+  .section-tarif .tariffs-table table thead tr th {
+    display: none;
+  }
+}
+.section-tarif .tariffs-table table tbody tr {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .section-tarif .tariffs-table table tbody tr {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 24px;
+  }
+}
+.section-tarif .tariffs-table table tbody tr td {
+  padding: 20px 24px;
+  background: #FFFFFF;
+  font-size: 14px;
+  white-space: nowrap;
+}
+@media (max-width: 1230px) {
+  .section-tarif .tariffs-table table tbody tr td {
+    white-space: normal;
+  }
+}
+@media (max-width: 991px) {
+  .section-tarif .tariffs-table table tbody tr td {
+    display: table-cell;
+    padding: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .section-tarif .tariffs-table table tbody tr td {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0 0 4px;
+    background: transparent;
+  }
+  .section-tarif .tariffs-table table tbody tr td:nth-last-child(1) {
+    margin: 0;
+  }
+  .section-tarif .tariffs-table table tbody tr td[data-title] {
+    width: 50%;
+    float: left;
+    margin: 16px 0 0;
+  }
+  .section-tarif .tariffs-table table tbody tr td[data-title]:before {
+    content: attr(data-title);
+    display: block;
+    width: 100%;
+    margin: 0 0 8px;
+    font-family: "Proxima Nova Semibold";
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #7B8B9D;
+  }
+}
+@media (max-width: 767px) {
+  .section-tarif .tariffs-table table tbody tr {
+    background: #FFFFFF;
+  }
+}
+.section-tarif .tariffs-table table tbody tr:nth-child(2n-1) td {
+  background: #F5F6F8;
+}
+@media (max-width: 767px) {
+  .section-tarif .tariffs-table table tbody tr:nth-child(2n-1) td {
+    background: transparent;
+  }
+}
+@media (max-width: 767px) {
+  .section-tarif .tariffs-table table tbody tr:nth-child(2n-1) {
+    background: #F5F6F8;
+  }
+}
+.section-tarif.section-step {
+  padding-top: 100px;
+}
+@media (max-width: 991px) {
+  .section-tarif.section-step {
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .section-tarif.section-step {
+    padding-top: 56px;
+    overflow: hidden;
+  }
+}
+.section-tarif.section-step .step-bg {
+  top: 10px;
+}
+@media (max-width: 1230px) {
+  .section-tarif.section-step .step-bg {
+    height: 1110px;
+  }
+}
+@media (max-width: 991px) {
+  .section-tarif.section-step .step-bg {
+    height: 852px;
+    top: 180px;
+    min-height: initial;
+  }
+}
+@media (max-width: 767px) {
+  .section-tarif.section-step .step-bg {
+    min-width: 1440px;
+    left: 50%;
+    height: 900px;
+    transform: translateX(-50%);
+    top: 420px;
+  }
+}
+.section-tarif.section-step .row {
+  margin: 0 -15px;
+}
+.section-tarif.section-step .row [class*=col-] {
+  padding: 0 15px;
+  margin: 0;
+}
+.section-tarif.section-step .row [class*=col-]:nth-last-child(1) {
+  padding-left: 0;
+}
+@media (max-width: 1230px) {
+  .section-tarif.section-step .row [class*=col-]:nth-last-child(1) {
+    padding-left: 15px;
+  }
+}
+.section-tarif.section-step .terms {
+  margin: 80px 0 0;
+}
+
+.section-how {
+  padding: 0 0 299px;
+  position: relative;
+  z-index: 4;
+}
+@media screen and (min-width: 1441px) {
+  .section-how {
+    padding: 0 0 100px;
+  }
+}
+@media (max-width: 991px) {
+  .section-how {
+    padding: 0 0 156px;
+  }
+  .section-how .row > [class*=col-] {
+    margin: 0 0 40px;
+  }
+  .section-how .row > [class*=col-]:nth-last-child(1) {
+    margin: 0;
+  }
+}
+@media (max-width: 767px) {
+  .section-how {
+    padding: 0 0 100px;
+  }
+}
+.section-how .head-title {
+  margin: 0 0 32px;
+}
+.section-how .how-title {
+  margin: 0 0 25px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4C5866;
+}
+.section-how .colored-disc {
+  margin: 0 0 34px;
+}
+.section-how .colored-disc li a {
+  color: #DD1D18;
+  text-decoration: underline;
+}
+.section-how .colored-disc li a:hover {
+  text-decoration: none;
+}
+
+.default-content a {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0 0 8px;
+  position: relative;
+  color: #DD1D18;
+  transition: color ease 0.6s;
+}
+.default-content a:hover {
+  color: #DD1D18;
+}
+.default-content a::before, .default-content a::after {
+  content: "";
+  position: absolute;
+  background-color: #DD1D18;
+  height: 2px;
+  bottom: 3px;
+}
+.default-content a::before {
+  width: 0%;
+  left: 0;
+  bottom: 3px;
+  transition: width ease 0.4s;
+}
+.default-content a::after {
+  width: 100%;
+  left: 0;
+  bottom: 3px;
+  transition: all ease 0.6s;
+}
+.default-content a:hover::before {
+  width: 100%;
+}
+.default-content a:hover::after {
+  left: 100%;
+  width: 0%;
+  transition: all ease 0.2s;
 }
 
 /** END CONTENT **/

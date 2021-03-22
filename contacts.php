@@ -118,4 +118,4 @@
 		});
 	};
 </script>
-<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBLmSrYz01qDh9um3Bp6v6995mt43clmh0&#038;callback=initMap'></script>
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBLmSrYz01qDh9um3Bp6v6995mt43clmh0&region=UA&language=uk&callback=initMap'></script>

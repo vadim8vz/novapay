@@ -225,7 +225,6 @@ $( document ).ready(function() {
         ],
     });
 
-    console.log($('.item-nav .nav-item').length);
     if ( $('.item-nav .nav-item').length <= 6 ) {
         $('.item-nav').addClass('centered');
     }
@@ -422,14 +421,23 @@ $( document ).ready(function() {
     });
 
     //file download
-    $('.js-add-file').click( function() {
-        $(this).addClass('choosed');
-        $(this).prev('.form-group-wrapper').hide();
-        $(this).find('.hidden-content').css('display','flex');
-    });
+    var fileSelectEle = document.getElementById('fileinput');
+    fileSelectEle.onchange = function ()
+    {
+      if(fileSelectEle.value.length == 0) {
+        $('.js-add-file').removeClass('choosed');
+        $('.js-add-file').removeClass('filed');
+        $('.js-add-file').prev('.form-group-wrapper').show();
+        $('.js-add-file .hidden-content').css('display','none');
+      } else {
+        $('.js-add-file').addClass('choosed');
+        $('.js-add-file').prev('.form-group-wrapper').hide();
+        $('.js-add-file').find('.hidden-content').css('display','flex');
+      }
+    }
     $('.file-control').change(function() {
         var file = $(this)[0].files[0].name;
-        $(this).closest('label').find('p').text(file).append('<span class="remove-file"><img src="img/file-close.svg" alt=""></span>');
+        $(this).closest('label').find('p').text(file).append('<span class="remove-file"></span>');
         $(this).closest('label').addClass('filed');
         return false;
     });
@@ -555,9 +563,3 @@ $( document ).ready(function() {
     });
 
 });
-
-//autoresize textarea
-function auto_grow(element) {
-    element.style.height = "5px";
-    element.style.height = (element.scrollHeight)+"px";
-}

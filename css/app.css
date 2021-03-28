@@ -185,7 +185,7 @@ input::-webkit-inner-spin-button {
   font-family: "Proxima Nova Extrabold";
 }
 
-.semibold, footer .w-arrow, .map-modal .adress-body ul li a.active, .map-modal .adress-body ul li a span, .map-modal .adress-head p, .list-view table tbody tr td .graph ul li a.active, .list-view table tbody tr td .graph ul li a span, .list-view table tbody tr td p, .section-mapmain .mobile-buttons a, .section-mapmain .result-list a.empty, .section-mapmain .result-list p.empty, .section-mapmain .result-list a small, .section-mapmain .result-list p small, .section-mapmain .map-filter .search-steps .search-step.chosen input, .section-mapmain .map-filter .search-steps .search-step.switch-view.list p:nth-last-child(1), .section-mapmain .map-filter .search-steps .search-step.switch-view.map p:nth-child(1), .section-mapmain .container .find, .default-content a, .section-tarif .tariffs-table table tbody tr td[data-title], .section-tarif .tariffs-table table tbody tr td:nth-last-child(1), .section-tarif .section-headings .subheading, .section-online-secure .section-headings .subtitle, .answer-block .answer-content .green, .section-answers .section-headings .subtitle, .verif-info-elem p span, .form-nav ul li a, .section-form .envelope .nav-tabs li a.active, .section-form .envelope .success-message a, .section-form p.subtitle, .section-error p, .default-content blockquote, .default-content table tbody tr td b, .default-content table tbody tr td:nth-child(1), .default-content table th, .default-content label, .default-content .share p, .default-content .author p, .default-content .date, .section-post .post-nav .back, .section-combine .director p, .section-combine .nav-tabs li a, .section-experience .exp-a p, .publications .container .publication-envelope .publication, .section-team-single .timecode .time-item span, .section-team-single .timecode .time-item p, .section-team-single .profile-info .add-info, .section-team-single .profile-info .post, .section-team-single .profile-info .back, .team-item-footer p, .alert, .tariffs-table table tbody tr td b, .tariffs-table table tbody tr td:nth-child(1), .tariffs-table table thead tr th, .resume-modal .modal-dialog .modal-content .right-side .form-wrapper-default.js-add-file .hidden-content p, .resume-modal .modal-dialog .modal-content .left-side ul li, .form-wrapper-default.js-add-file .hidden-content p, .form-wrapper-default .form-group span, .reviews-slider .nav-item p, .reviews-slider .slider-item .review-content .author-info p, .reviews-slider .slider-item .review-content .review, .info-subtitle, .section-vacancies-single .vacancy-form .form-group-wrapper.js-add-file .hidden-content p, .section-vacancies-single .vacancy-form .form-group-wrapper .form-group span, .section-vacancies-single .vacancy-form .subtitle, .section-vacancies-single .title, .vacancy-nav a, .news-inner-item .news-item__info small, .tags li a, .section-map .container .map-info-heading .adress, .section-map .top-nav .contact-link, .section-documents .container .nav-tabs li a, .section-inner-headings .contact-info .line, .business-step-inner, .section-howitworks .add-info, .section-howitworks .section-headings .subheadings, .instruction .left-side p, .instruction .left-side span, .online-payment p, .section-download .download-wrapper p, .section-step.second .terms .title, .section-page-nav .container ul li.active a, .section-page-nav .container ul li a, .section-inner .inner-envelope .inner-info .subtitle, .section-inner .inner-envelope .inner-info .subheadings, .news-item__date, .section-about .about-item p, .advantages-row .advantage-title span, .main-slider__item--step .step-info span, header .submenu ul li a, header ul a, .add-info, .mob-nav .mobile-nav ul li.w-submenu .submenu .menu-column ul li a, .mob-nav .mobile-nav ul li a, .hot-line .line-text, .link, .subheading, .btn {
+.semibold, footer .w-arrow, .map-modal .adress-body ul li a.active, .map-modal .adress-body ul li a span, .map-modal .adress-head p, .list-view table tbody tr td .graph ul li a.active, .list-view table tbody tr td .graph ul li a span, .list-view table tbody tr td p, .section-mapmain .mobile-buttons a, .section-mapmain .result-list a.empty, .section-mapmain .result-list p.empty, .section-mapmain .result-list a small, .section-mapmain .result-list p small, .section-mapmain .map-filter .search-steps .search-step.chosen input, .section-mapmain .map-filter .search-steps .search-step.switch-view.list p:nth-last-child(1), .section-mapmain .map-filter .search-steps .search-step.switch-view.map p:nth-child(1), .section-mapmain .container .find, .default-content a, .section-tarif .tariffs-table table tbody tr td[data-title], .section-tarif .tariffs-table table tbody tr td:nth-last-child(1), .section-tarif .section-headings .subheading, .section-online-secure .section-headings .subtitle, .answer-block .answer-content .green, .section-answers .section-headings .subtitle, .verif-info-elem p span, .form-nav ul li a, .section-form .envelope .nav-tabs li a.active, .section-form .envelope .success-message a, .section-form p.subtitle, .section-error p, .default-content blockquote, .default-content table tbody tr td b, .default-content table tbody tr td:nth-child(1), .default-content table th, .default-content label, .default-content .share p, .default-content .author p, .default-content .date, .section-post .post-nav .back, .section-combine .director p, .section-combine .nav-tabs li a, .section-experience .exp-a p, .publications .container .publication-envelope .publication, .section-team-single .timecode .time-item span, .section-team-single .timecode .time-item p, .section-team-single .profile-info .add-info, .section-team-single .profile-info .post, .section-team-single .profile-info .back, .team-item-footer p, .alert, .tariffs-table table tbody tr td b, .tariffs-table table tbody tr td:nth-child(1), .tariffs-table table thead tr th, .resume-modal .modal-dialog .modal-content .right-side .form-wrapper-default.js-add-file .hidden-content p, .resume-modal .modal-dialog .modal-content .left-side ul li, .form-wrapper-default.js-add-file .hidden-content p, .form-wrapper-default .form-group span, .reviews-slider .nav-item p, .reviews-slider .slider-item .review-content .author-info p, .reviews-slider .slider-item .review-content .review, .info-subtitle, .section-vacancies-single .vacancy-form .form-group-wrapper.js-add-file .hidden-content p, .section-vacancies-single .vacancy-form .form-group-wrapper .form-group span, .section-vacancies-single .vacancy-form .subtitle, .section-vacancies-single .title, .vacancy-nav a, .news-inner-item .news-item__info small, .tags li a, .section-map .container .map-info-heading .adress, .section-map .top-nav .contact-link, .section-documents .container .nav-tabs li a, .section-inner-headings .contact-info .line, .business-step-inner, .section-howitworks .add-info, .section-howitworks .section-headings .subheadings, .instruction .left-side p, .instruction .left-side span, .online-payment p, .section-download .download-wrapper p, .section-step.second .terms .title, .section-page-nav .container ul li.active a, .section-page-nav .container ul li a, .section-inner .inner-envelope .inner-info .subtitle, .section-inner .inner-envelope .inner-info .subheadings, .news-item__date, .section-about .about-item p, .advantages-row .advantage-title span, .main-slider__item--step .step-info span, .main-slider__item--subtitle, header .submenu ul li a, header ul a, .add-info, .mob-nav .mobile-nav ul li.w-submenu .submenu .menu-column ul li a, .mob-nav .mobile-nav ul li a, .hot-line .line-text, .link, .subheading, .btn {
   font-family: "Proxima Nova Semibold";
 }
 
@@ -387,6 +387,7 @@ h6 {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
+  background: #FFFFFF;
 }
 .btn span, .btn img {
   position: relative;
@@ -1583,15 +1584,20 @@ header .submenu.w-half ul.arrows li:nth-last-child(1) {
 }
 .main-slider .rolled-img {
   position: absolute;
-  right: -402px;
-  bottom: -252px;
+  right: -352px;
+  bottom: -202px;
   transition: transform 0.3fs linear;
   transform-origin: bottom right;
   transition-timing-function: ease-in-out;
   transform-style: preserve-3D;
-  width: 1094px;
-  height: 1061px;
+  width: 981px;
+  height: 949px;
   object-fit: contain;
+}
+@media (max-width: 1141px) {
+  .main-slider .rolled-img {
+    bottom: -182px;
+  }
 }
 @media (max-width: 991px) {
   .main-slider .rolled-img {
@@ -1631,9 +1637,10 @@ header .submenu.w-half ul.arrows li:nth-last-child(1) {
 }
 .main-slider__item--subtitle {
   color: #4C5866;
-  font-size: 16px;
-  line-height: 19px;
-  margin: 0 0 56px;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 44px;
+  max-width: 456px;
 }
 .main-slider__item--step {
   position: absolute;
@@ -1710,6 +1717,7 @@ header .submenu.w-half ul.arrows li:nth-last-child(1) {
   margin: 0 0 21px;
   position: relative;
   z-index: 3;
+  max-width: 456px;
 }
 .main-slider .mobile-img {
   display: none;
@@ -6944,6 +6952,7 @@ ul.colored-disc.mint li:after {
   cursor: pointer;
   border-radius: 0;
   border-radius: 8px;
+  position: relative;
 }
 @media (max-width: 767px) {
   .form-wrapper-default.js-add-file {
@@ -6954,6 +6963,14 @@ ul.colored-disc.mint li:after {
     margin: 24px 0 32px;
     justify-content: space-between;
   }
+}
+.form-wrapper-default.js-add-file .file-control {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
 }
 .form-wrapper-default.js-add-file .or {
   color: #8392A4;

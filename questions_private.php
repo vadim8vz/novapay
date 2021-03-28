@@ -73,7 +73,7 @@
 							</div>
 							<div class="col-xl-12">
 								<label class="form-wrapper-default w-half js-add-file to-right">
-									<input type="file" class="file-control" style="display: none">
+									<input type="file" id="fileinput" class="file-control">
 									<a href="javascript:void(0)" class="link">Завантажити файл</a>
 									<span class="hidden-content">
 										<p></p>
@@ -81,7 +81,7 @@
 											Видалити
 										</a>
 									</span>
-								</label>
+								</label>													
 							</div>
 							<div class="col-xl-12">
 								<div class="form-wrapper-default">

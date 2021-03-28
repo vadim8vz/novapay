@@ -154,6 +154,7 @@ h6 {
 	position: relative;
 	overflow: hidden;
 	border-radius: 8px;
+	background: $white;
 	span, img {
 		position: relative;
 		z-index: 2;
@@ -1328,15 +1329,18 @@ header {
 	}*/
 	.rolled-img {
 		position: absolute;
-		right: -402px;
-		bottom: -252px;
-		transition: transform 0.3fs linear;
+		right: -352px;
+	    bottom: -202px;
+	    transition: transform 0.3fs linear;
 	    transform-origin: bottom right;
 	    transition-timing-function: ease-in-out;
 	    transform-style: preserve-3D;
-	    width: 1094px;
-	    height: 1061px;
+	    width: 981px;
+	    height: 949px;
 	    object-fit: contain;
+	    @include media-max(xl) {
+	    	bottom: -182px;
+	    }
 	    @include media-max(lg) {
 			display: none;
 		}
@@ -1367,9 +1371,11 @@ header {
 		}
 		&--subtitle {
 			color: $graffit;
-			font-size: 16px;
-			line-height: 19px;
-			margin: 0 0 56px;
+			font-size: 18px;
+			line-height: 22px;
+			@extend .semibold;
+			margin: 0 0 44px;
+			max-width: 456px;
 		}
 		&--step {
 			position: absolute;
@@ -1459,6 +1465,7 @@ header {
 		margin: 0 0 21px;
 		position: relative;
 		z-index: 3;
+		max-width: 456px;
 	}
 	.mobile-img {
 		display: none;
@@ -6185,6 +6192,7 @@ ul.colored-disc {
 		cursor: pointer;
 		border-radius: 0;
 		border-radius: 8px;
+		position: relative;
 		@include media-max(md) {
 			background: transparent;
 			border: none;
@@ -6192,6 +6200,14 @@ ul.colored-disc {
 			padding: 0;
 			margin: 24px 0 32px;
 			justify-content: space-between;
+		}
+		.file-control {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			opacity: 0;
 		}
 		.or {
 			color: $grey_40;

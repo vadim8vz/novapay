@@ -185,11 +185,11 @@ input::-webkit-inner-spin-button {
   font-family: "Proxima Nova Extrabold";
 }
 
-.semibold, footer .w-arrow, .default-content a, .section-tarif .tariffs-table table tbody tr td[data-title], .section-tarif .tariffs-table table tbody tr td:nth-last-child(1), .section-tarif .section-headings .subheading, .section-online-secure .section-headings .subtitle, .answer-block .answer-content .green, .section-answers .section-headings .subtitle, .verif-info-elem p span, .form-nav ul li a, .section-form .envelope .nav-tabs li a.active, .section-form .envelope .success-message a, .section-form p.subtitle, .section-error p, .default-content table tbody tr td b, .default-content table tbody tr td:nth-child(1), .default-content table th, .default-content label, .default-content .share p, .default-content .author p, .default-content .date, .section-post .post-nav .back, .section-combine .director p, .section-combine .nav-tabs li a, .section-experience .exp-a p, .publications .container .publication-envelope .publication, .section-team-single .timecode .time-item span, .section-team-single .timecode .time-item p, .section-team-single .profile-info .add-info, .section-team-single .profile-info .post, .section-team-single .profile-info .back, .team-item-footer p, .alert, .tariffs-table table tbody tr td b, .tariffs-table table tbody tr td:nth-child(1), .tariffs-table table thead tr th, .resume-modal .modal-dialog .modal-content .right-side .form-wrapper-default.js-add-file .hidden-content p, .resume-modal .modal-dialog .modal-content .left-side ul li, .form-wrapper-default.js-add-file .hidden-content p, .form-wrapper-default .form-group span, .reviews-slider .nav-item p, .reviews-slider .slider-item .review-content .author-info p, .reviews-slider .slider-item .review-content .review, .info-subtitle, .section-vacancies-single .vacancy-form .form-group-wrapper.js-add-file .hidden-content p, .section-vacancies-single .vacancy-form .form-group-wrapper .form-group span, .section-vacancies-single .vacancy-form .subtitle, .section-vacancies-single .title, .vacancy-nav a, .news-inner-item .news-item__info small, .tags li a, .section-map .container .map-info-heading .adress, .section-map .top-nav .contact-link, .section-documents .container .nav-tabs li a, .section-inner-headings .contact-info .line, .business-step-inner, .section-howitworks .add-info, .section-howitworks .section-headings .subheadings, .instruction .left-side p, .instruction .left-side span, .online-payment p, .section-download .download-wrapper p, .section-step.second .terms .title, .section-page-nav .container ul li.active a, .section-page-nav .container ul li a, .section-inner .inner-envelope .inner-info .subtitle, .section-inner .inner-envelope .inner-info .subheadings, .news-item__date, .section-about .about-item p, .advantages-row .advantage-title span, .main-slider__item--step .step-info span, header .submenu ul li a, header ul a, .add-info, .mob-nav .mobile-nav ul li.w-submenu .submenu .menu-column ul li a, .mob-nav .mobile-nav ul li a, .hot-line .line-text, .link, .subheading, .btn {
+.semibold, footer .w-arrow, .map-modal .adress-body ul li a.active, .map-modal .adress-body ul li a span, .map-modal .adress-head p, .list-view table tbody tr td .graph ul li a.active, .list-view table tbody tr td .graph ul li a span, .list-view table tbody tr td p, .section-mapmain .mobile-buttons a, .section-mapmain .result-list a.empty, .section-mapmain .result-list p.empty, .section-mapmain .result-list a small, .section-mapmain .result-list p small, .section-mapmain .map-filter .search-steps .search-step.chosen input, .section-mapmain .map-filter .search-steps .search-step.switch-view.list p:nth-last-child(1), .section-mapmain .map-filter .search-steps .search-step.switch-view.map p:nth-child(1), .section-mapmain .container .find, .default-content a, .section-tarif .tariffs-table table tbody tr td[data-title], .section-tarif .tariffs-table table tbody tr td:nth-last-child(1), .section-tarif .section-headings .subheading, .section-online-secure .section-headings .subtitle, .answer-block .answer-content .green, .section-answers .section-headings .subtitle, .verif-info-elem p span, .form-nav ul li a, .section-form .envelope .nav-tabs li a.active, .section-form .envelope .success-message a, .section-form p.subtitle, .section-error p, .default-content blockquote, .default-content table tbody tr td b, .default-content table tbody tr td:nth-child(1), .default-content table th, .default-content label, .default-content .share p, .default-content .author p, .default-content .date, .section-post .post-nav .back, .section-combine .director p, .section-combine .nav-tabs li a, .section-experience .exp-a p, .publications .container .publication-envelope .publication, .section-team-single .timecode .time-item span, .section-team-single .timecode .time-item p, .section-team-single .profile-info .add-info, .section-team-single .profile-info .post, .section-team-single .profile-info .back, .team-item-footer p, .alert, .tariffs-table table tbody tr td b, .tariffs-table table tbody tr td:nth-child(1), .tariffs-table table thead tr th, .resume-modal .modal-dialog .modal-content .right-side .form-wrapper-default.js-add-file .hidden-content p, .resume-modal .modal-dialog .modal-content .left-side ul li, .form-wrapper-default.js-add-file .hidden-content p, .form-wrapper-default .form-group span, .reviews-slider .nav-item p, .reviews-slider .slider-item .review-content .author-info p, .reviews-slider .slider-item .review-content .review, .info-subtitle, .section-vacancies-single .vacancy-form .form-group-wrapper.js-add-file .hidden-content p, .section-vacancies-single .vacancy-form .form-group-wrapper .form-group span, .section-vacancies-single .vacancy-form .subtitle, .section-vacancies-single .title, .vacancy-nav a, .news-inner-item .news-item__info small, .tags li a, .section-map .container .map-info-heading .adress, .section-map .top-nav .contact-link, .section-documents .container .nav-tabs li a, .section-inner-headings .contact-info .line, .business-step-inner, .section-howitworks .add-info, .section-howitworks .section-headings .subheadings, .instruction .left-side p, .instruction .left-side span, .online-payment p, .section-download .download-wrapper p, .section-step.second .terms .title, .section-page-nav .container ul li.active a, .section-page-nav .container ul li a, .section-inner .inner-envelope .inner-info .subtitle, .section-inner .inner-envelope .inner-info .subheadings, .news-item__date, .section-about .about-item p, .advantages-row .advantage-title span, .main-slider__item--step .step-info span, header .submenu ul li a, header ul a, .add-info, .mob-nav .mobile-nav ul li.w-submenu .submenu .menu-column ul li a, .mob-nav .mobile-nav ul li a, .hot-line .line-text, .link, .subheading, .btn {
   font-family: "Proxima Nova Semibold";
 }
 
-.regular, .section-tarif .tariffs-table table tbody tr td, .section-howitworks.verif-how .subtitle, .default-content .author p span, .section-combine .director p span, .success-modal .modal-dialog .modal-content p span, .reviews-slider .slider-item .review-content .author-info p span, .section-payment .section-headings h2 span, .answer p, .tip small, header .submenu.w-half ul.arrows li a {
+.regular, .list-view table thead tr th, .section-tarif .tariffs-table table tbody tr td, .section-howitworks.verif-how .subtitle, .default-content .author p span, .section-combine .director p span, .success-modal .modal-dialog .modal-content p span, .reviews-slider .slider-item .review-content .author-info p span, .section-payment .section-headings h2 span, .answer p, .tip small, header .submenu.w-half ul.arrows li a {
   font-family: "Proxima Nova Regular";
 }
 
@@ -1589,6 +1589,9 @@ header .submenu.w-half ul.arrows li:nth-last-child(1) {
   transform-origin: bottom right;
   transition-timing-function: ease-in-out;
   transform-style: preserve-3D;
+  width: 1094px;
+  height: 1061px;
+  object-fit: contain;
 }
 @media (max-width: 991px) {
   .main-slider .rolled-img {
@@ -1705,6 +1708,8 @@ header .submenu.w-half ul.arrows li:nth-last-child(1) {
 }
 .main-slider h1 {
   margin: 0 0 21px;
+  position: relative;
+  z-index: 3;
 }
 .main-slider .mobile-img {
   display: none;
@@ -4470,6 +4475,8 @@ ul.colored-disc.mint li:after {
 
 .section-howitworks {
   padding: 110px 0;
+  position: relative;
+  z-index: 5;
 }
 @media (max-width: 991px) {
   .section-howitworks {
@@ -8846,10 +8853,10 @@ ul.colored-disc.mint li:after {
 }
 .default-content blockquote {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
+  padding: 0 0 0 20px;
+  border-left: 2.5px solid #DD1D18;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .section-error {
@@ -10466,6 +10473,815 @@ ul.colored-disc.mint li:after {
   left: 100%;
   width: 0%;
   transition: all ease 0.2s;
+}
+
+.section-mapmain {
+  position: relative;
+  min-height: 695px;
+}
+.section-mapmain .map-wrapper {
+  position: relative;
+  z-index: 4;
+  pointer-events: none;
+  min-height: 695px;
+}
+.section-mapmain .container {
+  max-width: 996px;
+  position: relative;
+  pointer-events: none;
+  height: 100%;
+  min-height: 695px;
+}
+@media (max-width: 767px) {
+  .section-mapmain .container {
+    position: static;
+  }
+}
+.section-mapmain .container .find {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8px 12px;
+  margin: 10px 0;
+  font-size: 14px;
+  border-radius: 4px;
+  line-height: 18px;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 3;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+@media (max-width: 767px) {
+  .section-mapmain .container .find {
+    text-align: left;
+    justify-content: flex-start;
+  }
+}
+.section-mapmain .map-filter {
+  padding: 12px 25px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 14px rgba(76, 88, 102, 0.15);
+  border-radius: 4px;
+  min-height: 66px;
+  display: flex;
+  z-index: 4;
+  align-items: center;
+  pointer-events: all;
+}
+@media (max-width: 767px) {
+  .section-mapmain .map-filter {
+    padding: 0;
+    border-radius: 4px;
+  }
+}
+.section-mapmain .map-filter .search-steps {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .section-mapmain .map-filter .search-steps {
+    flex-wrap: wrap;
+  }
+}
+.section-mapmain .map-filter .search-steps .search-step {
+  max-width: 360px;
+  width: 100%;
+  margin: 0 24px 0 0;
+  position: relative;
+  min-height: 37px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .section-mapmain .map-filter .search-steps .search-step {
+    margin: 0 16px 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .section-mapmain .map-filter .search-steps .search-step {
+    margin: 0;
+    min-height: initial;
+    max-width: 100% !important;
+  }
+  .section-mapmain .map-filter .search-steps .search-step:nth-child(1) input {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+}
+.section-mapmain .map-filter .search-steps .search-step:nth-last-child(1) {
+  margin: 0;
+}
+.section-mapmain .map-filter .search-steps .search-step:nth-last-child(1):after {
+  content: none;
+}
+.section-mapmain .map-filter .search-steps .search-step:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 24px;
+  width: 1px;
+  background: #E2E5E9;
+}
+@media (max-width: 767px) {
+  .section-mapmain .map-filter .search-steps .search-step:after {
+    content: none;
+  }
+}
+.section-mapmain .map-filter .search-steps .search-step span {
+  display: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4C5866;
+  opacity: 0.7;
+  position: absolute;
+  top: -3px;
+}
+@media (max-width: 767px) {
+  .section-mapmain .map-filter .search-steps .search-step span {
+    display: none !important;
+  }
+}
+.section-mapmain .map-filter .search-steps .search-step .form-group {
+  margin: 0;
+  width: 100%;
+}
+.section-mapmain .map-filter .search-steps .search-step .form-group .map-control {
+  width: 100%;
+  border: none;
+  padding: 0;
+  color: #4C5866;
+  font-size: 16px;
+}
+.section-mapmain .map-filter .search-steps .search-step .form-group .map-control::-webkit-input-placeholder {
+  color: #8392A4;
+}
+.section-mapmain .map-filter .search-steps .search-step .form-group .map-control::-moz-placeholder {
+  color: #8392A4;
+}
+.section-mapmain .map-filter .search-steps .search-step .form-group .map-control:-ms-input-placeholder {
+  color: #8392A4;
+}
+.section-mapmain .map-filter .search-steps .search-step .form-group .map-control:-moz-placeholder {
+  color: #8392A4;
+}
+.section-mapmain .map-filter .search-steps .search-step .form-group .map-control:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.section-mapmain .map-filter .search-steps .search-step .form-group .map-control:focus:-moz-placeholder {
+  color: transparent;
+}
+.section-mapmain .map-filter .search-steps .search-step .form-group .map-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.section-mapmain .map-filter .search-steps .search-step .form-group .map-control:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.section-mapmain .map-filter .search-steps .search-step .form-group .map-control.readonly {
+  pointer-events: none;
+}
+@media (max-width: 767px) {
+  .section-mapmain .map-filter .search-steps .search-step .form-group .map-control {
+    padding: 0 16px;
+    min-height: 44px;
+    font-size: 14px;
+    border-bottom: 1px solid #E2E5E9;
+  }
+}
+.section-mapmain .map-filter .search-steps .search-step .remove-result {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (max-width: 767px) {
+  .section-mapmain .map-filter .search-steps .search-step .remove-result {
+    right: 16px;
+  }
+}
+.section-mapmain .map-filter .search-steps .search-step.switch-view {
+  max-width: 145px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .section-mapmain .map-filter .search-steps .search-step.switch-view {
+    display: none;
+  }
+}
+.section-mapmain .map-filter .search-steps .search-step.switch-view p {
+  font-size: 14px;
+  line-height: 17px;
+}
+.section-mapmain .map-filter .search-steps .search-step.switch-view.map .switch div {
+  -webkit-transform: translate3d(0%, 0, 0);
+  -moz-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+.section-mapmain .map-filter .search-steps .search-step.switch-view.list .switch div {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+.section-mapmain .map-filter .search-steps .search-step.street {
+  max-width: 393px;
+}
+@media (max-width: 767px) {
+  .section-mapmain .map-filter .search-steps .search-step.street {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .section-mapmain .map-filter .search-steps .search-step.street input {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom: none;
+  }
+}
+.section-mapmain .map-filter .search-steps .search-step.chosen {
+  align-items: flex-end;
+}
+.section-mapmain .map-filter .search-steps .search-step.chosen span {
+  display: block;
+}
+.section-mapmain .map-filter .search-steps .search-step.chosen input {
+  color: #4C5866;
+}
+.section-mapmain .map-filter .search-steps .search-step.chosen .remove-result {
+  opacity: 1;
+  visibility: visible;
+}
+.section-mapmain .switch {
+  display: inline-block;
+  height: 20px;
+  width: 36px;
+  background: #4C5866;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+}
+.section-mapmain .switch div {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+.section-mapmain .map-controls {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 4px;
+  margin: 24px 0 0;
+  pointer-events: none;
+}
+.section-mapmain .map-controls div {
+  pointer-events: all;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  background: #4C5866;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+.section-mapmain .map-controls div:nth-child(2) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.section-mapmain .map-controls div:nth-last-child(1) {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.section-mapmain .result-list {
+  position: absolute;
+  left: -25px;
+  top: calc(100% + 15px);
+  background: #FFFFFF;
+  box-shadow: 0px 4px 14px rgba(76, 88, 102, 0.15);
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  overflow: hidden;
+  width: calc(100% + 24px);
+  z-index: 8;
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+@media (max-width: 767px) {
+  .section-mapmain .result-list {
+    left: 0;
+    width: 100%;
+    top: 100%;
+  }
+}
+.section-mapmain .result-list.visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+.section-mapmain .result-list a, .section-mapmain .result-list p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 5px 24px;
+  min-height: 44px;
+  border-bottom: 1px solid #E2E5E9;
+}
+.section-mapmain .result-list a:hover, .section-mapmain .result-list p:hover {
+  background: #F5F6F8;
+}
+.section-mapmain .result-list a img, .section-mapmain .result-list p img {
+  margin: 0 9px 0 0;
+}
+.section-mapmain .result-list a.empty:hover, .section-mapmain .result-list p.empty:hover {
+  background: initial;
+}
+@media (max-width: 767px) {
+  .section-mapmain .result-list a, .section-mapmain .result-list p {
+    padding: 5px 16px;
+    min-height: 39px;
+  }
+}
+.section-mapmain .result-list ul li a {
+  position: relative;
+}
+.section-mapmain .result-list ul li a:before {
+  content: "";
+  margin: 0 8px 0 0;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  background: url("../img/map-pin-ico.svg") center no-repeat;
+}
+.section-mapmain .mobile-buttons {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+}
+@media (min-width: 767.02px) {
+  .section-mapmain .mobile-buttons {
+    display: none;
+  }
+}
+.section-mapmain .mobile-buttons.map li:nth-child(1) a {
+  color: #DD1D18;
+  border-bottom: 4px solid #DD1D18;
+}
+.section-mapmain .mobile-buttons.list li:nth-last-child(1) a {
+  color: #DD1D18;
+  border-bottom: 4px solid #DD1D18;
+}
+.section-mapmain .mobile-buttons ul {
+  display: flex;
+}
+.section-mapmain .mobile-buttons li {
+  width: 50%;
+}
+.section-mapmain .mobile-buttons a {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #6D737E;
+  border-bottom: 4px solid transparent;
+}
+.section-mapmain .mobile-buttons a:hover {
+  color: #DD1D18;
+}
+
+.list-view {
+  background: #F5F7F8;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 7;
+  display: none;
+  height: 551px;
+}
+@media (max-width: 767px) {
+  .list-view {
+    bottom: 40px;
+    height: auto;
+  }
+}
+.list-view .container {
+  pointer-events: all;
+  height: auto;
+  min-height: initial;
+}
+.list-view .table-wrapper {
+  max-height: 551px;
+  height: 100%;
+  overflow: auto;
+  padding: 24px 0;
+}
+@media (max-width: 767px) {
+  .list-view .table-wrapper {
+    padding: 12px 0;
+  }
+}
+.list-view .table-wrapper::-webkit-scrollbar {
+  width: 3px;
+  background: transparent;
+  border-radius: 4px;
+}
+.list-view .table-wrapper::-webkit-scrollbar-track {
+  width: 3px;
+  border-radius: 4px;
+}
+.list-view .table-wrapper::-webkit-scrollbar-thumb {
+  background: #DD1D18;
+  width: 3px;
+  border-radius: 4px;
+}
+.list-view table {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .list-view table {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .list-view table thead {
+    display: none;
+  }
+}
+.list-view table thead tr th {
+  text-align: left;
+  font-size: 12px;
+  line-height: 15px;
+  color: #8392A4;
+  font-weight: normal;
+}
+@media (max-width: 767px) {
+  .list-view table tbody {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .list-view table tbody tr {
+    display: block;
+    border-bottom: 1px solid #E2E5E9;
+    position: relative;
+    padding: 12px 0;
+  }
+}
+.list-view table tbody tr td {
+  padding: 16px 0;
+  border-bottom: 1px solid #E2E5E9;
+}
+@media (max-width: 767px) {
+  .list-view table tbody tr td {
+    display: block;
+    border: none;
+    padding: 0;
+  }
+}
+.list-view table tbody tr td:nth-child(1) {
+  width: 30%;
+}
+@media (max-width: 991px) {
+  .list-view table tbody tr td:nth-child(1) {
+    width: 33%;
+  }
+}
+@media (max-width: 767px) {
+  .list-view table tbody tr td:nth-child(1) {
+    width: 100%;
+  }
+}
+.list-view table tbody tr td:nth-child(2) {
+  width: 22%;
+}
+@media (max-width: 991px) {
+  .list-view table tbody tr td:nth-child(2) {
+    width: 20%;
+  }
+}
+@media (max-width: 767px) {
+  .list-view table tbody tr td:nth-child(2) {
+    display: none;
+  }
+}
+.list-view table tbody tr td p {
+  font-size: 14px;
+}
+.list-view table tbody tr td span {
+  font-size: 14px;
+}
+.list-view table tbody tr td .graph {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 228px;
+  max-height: 26px;
+  overflow: hidden;
+}
+.list-view table tbody tr td .graph.full-height {
+  max-height: 100%;
+}
+@media (max-width: 767px) {
+  .list-view table tbody tr td .graph.full-height {
+    margin: 12px 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .list-view table tbody tr td .graph {
+    padding: 0;
+    max-width: 100%;
+    max-height: 0;
+    position: relative;
+  }
+}
+.list-view table tbody tr td .graph ul {
+  width: 43%;
+}
+@media (max-width: 767px) {
+  .list-view table tbody tr td .graph ul {
+    width: initial;
+  }
+  .list-view table tbody tr td .graph ul.weekend a {
+    justify-content: flex-end;
+  }
+}
+.list-view table tbody tr td .graph ul li {
+  margin: 0 0 5px 0;
+}
+.list-view table tbody tr td .graph ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+.list-view table tbody tr td .graph ul li a span {
+  margin: 0 8px 0 0;
+}
+@media (max-width: 767px) {
+  .list-view table tbody tr td .graph ul li a span {
+    margin: 0 38px 0 0;
+  }
+}
+.list-view table tbody tr td .graph ul li a.active {
+  color: #DD1D18;
+}
+.list-view table tbody tr td:nth-last-child(1) {
+  width: 155px;
+}
+@media (max-width: 991px) {
+  .list-view table tbody tr td:nth-last-child(1) {
+    width: 130px;
+    text-align: right;
+  }
+  .list-view table tbody tr td:nth-last-child(1) .link {
+    font-family: "Proxima Nova Semibold";
+    line-height: 16px;
+    letter-spacing: 0.08em;
+  }
+  .list-view table tbody tr td:nth-last-child(1) .link:after, .list-view table tbody tr td:nth-last-child(1) .link:before {
+    content: none;
+  }
+}
+@media (max-width: 767px) {
+  .list-view table tbody tr td .link {
+    font-family: "Proxima Nova Semibold";
+    line-height: 16px;
+    letter-spacing: 0.08em;
+    position: absolute;
+    text-align: right;
+    right: 0;
+    bottom: 12px;
+    max-width: 81px;
+    padding: 0;
+  }
+  .list-view table tbody tr td .link:after, .list-view table tbody tr td .link:before {
+    content: none;
+  }
+}
+.list-view table tbody tr td .open-graph {
+  width: 228px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EEF0F2;
+  border-radius: 4px;
+  min-height: 20px;
+}
+.list-view table tbody tr td .open-graph:hover {
+  background: #E2E5E9;
+}
+.list-view table tbody tr td .open-graph.opened {
+  background: #E2E5E9;
+}
+.list-view table tbody tr td .open-graph.opened img {
+  transform: rotate(-180deg);
+}
+@media (max-width: 767px) {
+  .list-view table tbody tr td .open-graph {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    width: 44px;
+    height: 44px;
+    background: transparent !important;
+  }
+}
+.list-view table tbody tr:nth-last-child(1) td {
+  padding-bottom: 0;
+  border: none;
+}
+
+.map-modal {
+  position: absolute;
+  left: 15px;
+  top: 188px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 14px rgba(76, 88, 102, 0.15);
+  border-radius: 4px;
+  width: 320px;
+  z-index: 3;
+  pointer-events: all;
+}
+@media (max-width: 767px) {
+  .map-modal {
+    width: 100%;
+    bottom: 40px;
+    border-radius: 0;
+    box-shadow: none;
+    top: auto;
+    left: 0;
+    padding: 15px;
+  }
+}
+.map-modal .adress-head {
+  padding: 24px 24px 14px;
+  border-bottom: 1px solid #E2E5E9;
+}
+@media (max-width: 767px) {
+  .map-modal .adress-head {
+    padding: 0;
+    border: none;
+    margin: 0 0 6px;
+  }
+}
+.map-modal .adress-head p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 2px;
+}
+.map-modal .adress-head span {
+  font-size: 14px;
+  line-height: 24px;
+}
+.map-modal .adress-head .close-adress {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+@media (max-width: 767px) {
+  .map-modal .adress-head .close-adress {
+    width: 44px;
+    height: 44px;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.map-modal .adress-body {
+  padding: 16px 24px 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+  .map-modal .adress-body {
+    padding: 0;
+  }
+}
+.map-modal .adress-body ul {
+  width: 41%;
+}
+@media (max-width: 767px) {
+  .map-modal .adress-body ul {
+    width: auto;
+  }
+}
+.map-modal .adress-body ul li {
+  margin: 0 0 5px 0;
+}
+@media (max-width: 767px) {
+  .map-modal .adress-body ul li {
+    margin: 0 0 3px;
+  }
+}
+.map-modal .adress-body ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+@media (max-width: 767px) {
+  .map-modal .adress-body ul li a {
+    font-size: 14px;
+  }
+}
+.map-modal .adress-body ul li a span {
+  font-size: 16px;
+  margin: 0 8px 0 0;
+}
+@media (max-width: 767px) {
+  .map-modal .adress-body ul li a span {
+    font-size: 14px;
+    margin: 0 30px 0 0;
+  }
+}
+.map-modal .adress-body ul li a.active {
+  color: #DD1D18;
+}
+.map-modal .adress-body .link {
+  margin: 10px auto 0;
+}
+@media (max-width: 767px) {
+  .map-modal .adress-body .link {
+    position: absolute;
+    right: 17px;
+    bottom: 17px;
+    max-width: 81px;
+    text-align: right;
+  }
+  .map-modal .adress-body .link:after, .map-modal .adress-body .link:before {
+    content: none;
+  }
+}
+
+#zoomin, #zoomout {
+  position: relative;
+  z-index: 4;
+}
+
+#location {
+  margin: 0 0 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #4C5866;
+  position: relative;
+  z-index: 4;
+}
+#location:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+#location img {
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+#location.active:after {
+  opacity: 1;
+  visibility: visible;
+}
+#location.active img {
+  opacity: 1;
 }
 
 /** END CONTENT **/

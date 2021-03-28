@@ -337,6 +337,7 @@ $( document ).ready(function() {
             <a href="payment_secure.php">payment_secure.php</a>\n\
             <a href="enrollment.php">enrollment.php</a>\n\
             <a href="text_page.php">text_page.php</a>\n\
+            <a href="map.php">map.php</a>\n\
         </div>\n\
     </div>'
 
@@ -471,6 +472,49 @@ $( document ).ready(function() {
             $('.hidden-col').hide();
         }
     });
+
+
+    //map
+    $('.search-step input').on('keyup', function() {
+        $(this).closest('.search-step').find('.result-list').addClass('visible');
+    });
+
+    $('.result-list ul li a').on('click', function() {
+        var searchListItem = $(this).text();
+        $(this).closest('.search-step').find('input').val(searchListItem).prop('readonly', true).addClass('readonly');
+        $(this).closest('.result-list').removeClass('visible');
+        $(this).closest('.search-step').addClass('chosen');
+    });
+
+    $('.remove-result').on('click', function() {
+        $(this).closest('.search-step').find('input').val('').prop('readonly', false).removeClass('readonly');
+        $(this).closest('.result-list').addClass('visible');
+        $(this).closest('.search-step').removeClass('chosen');
+    });
+
+    $('#location').click( function() {
+        $(this).toggleClass('active');
+    });
+
+    $('.close-adress').click( function() {
+        $(this).closest('.map-modal').hide();
+    });
+
+    $('.switch-view .switch, .mobile-buttons a').click( function() {
+        if ( $(this).closest('div').hasClass('map') ) {
+            $(this).closest('div').removeClass('map');
+            $(this).closest('div').addClass('list');
+            $('.list-view').slideDown();
+        } else if ( $(this).closest('div').hasClass('list') ) {
+            $(this).closest('div').removeClass('list');
+            $(this).closest('div').addClass('map');
+             $('.list-view').slideUp();
+        }
+    });
+    $('.open-graph').click( function() {
+        $(this).toggleClass('opened');
+        $(this).closest('td').find('.graph').toggleClass('full-height');
+    })
 
     //rest-slider
     if ($(window).width() >= 991) {

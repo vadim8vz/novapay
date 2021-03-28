@@ -56,7 +56,7 @@
 									</div>
 								</div>
 							</div>
-							<img src="img/slider-img-full.png" class="rolled-img" alt="">
+							<img src="img/sl-img2.png" class="rolled-img" alt="">
 							<img src="img/mobile-slider-img.png" class="mobile-img" alt="">
 						</div>
 						<div class="main-slider__item">
@@ -83,7 +83,7 @@
 									</div>
 								</div>
 							</div>
-							<img src="img/slider-img-full.png" class="rolled-img" alt="">
+							<img src="img/sl-img3.png" class="rolled-img" alt="">
 							<img src="img/mobile-slider-img.png" class="mobile-img" alt="">
 						</div>
 					</div>

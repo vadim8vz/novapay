@@ -747,8 +747,10 @@ body {
 /** START HEADER **/
 
 header {
-	padding: 16px 0;
 	position: relative;
+	@include media-max(lg) {
+		padding: 16px 0;
+	}
 	@include media-max(md) {
 		padding: 6px 0;
 	}
@@ -935,7 +937,9 @@ header {
 					.submenu {
 						opacity: 1;
 						visibility: visible;
-						transform: translateY(0) translateX(-50%);
+						transform: translateY(0px) translateX(-50%);
+						display: flex;
+						pointer-events: all;
 					}
 				}
 			}
@@ -945,7 +949,8 @@ header {
 			@extend .semibold;
 			font-size: 14px;
 			line-height: 17px;
-			padding: 8px 0;
+			padding: 32px 0;
+			display: flex;
 			position: relative;
 			@include media-max(xlp) {
 				font-size: 12px;
@@ -953,7 +958,7 @@ header {
 			&:after {
 				content: '';
 				position: absolute;
-				top: 100%;
+				bottom: 25px;
 				right: 0;
 				height: 1.5px;
 				left: auto;
@@ -1006,6 +1011,7 @@ header {
 		overflow: hidden;
 		padding: 40px;
 		opacity: 0;
+		pointer-events: none;
 		visibility: hidden;
 		.menu-column {
 			max-width: 315px;
@@ -1030,6 +1036,7 @@ header {
 					font-size: 14px;
 					line-height: 17px;
 					color: $white;
+					padding: 0;
 					white-space: nowrap;
 					&:hover {
 						opacity: 0.8;
@@ -9506,12 +9513,17 @@ ul.colored-disc {
 
 .section-mapmain {
 	position: relative;
-	min-height: 695px;
+	min-height: 100vh;
+	height: 100%;
+	@include media-max(md) {
+		margin: 0 0 24px;
+	}
 	.map-wrapper {
 		position: relative;
 		z-index: 4;
 		pointer-events: none;
-		min-height: 695px;
+		min-height: 100vh;
+		height: 100%;
 	}
 	.container {
 		max-width: 996px;
@@ -9845,10 +9857,11 @@ ul.colored-disc {
 		}
 	}
 	.mobile-buttons {
-		position: absolute;
+		position: sticky;
 		left: 0;
 		bottom: 0;
 		width: 100%;
+		z-index: 9;
 		background: rgba(255,255,255,.9);
 		@include media-min(md) {
 			display: none;
@@ -9916,7 +9929,7 @@ ul.colored-disc {
 		max-height: 551px;
 		height: 100%;
 		overflow: auto;
-		padding: 24px 0;
+		padding: 24px 8px 24px 0;
 		@include media-max(md) {
 			padding: 12px 0;
 		}
@@ -9930,7 +9943,7 @@ ul.colored-disc {
 			border-radius: 4px;
 		}
 		&::-webkit-scrollbar-thumb {
-			background: $red;
+			background: #c2c7cc;
 			width: 3px;
 			border-radius: 4px;
 		}
@@ -10036,6 +10049,7 @@ ul.colored-disc {
 									align-items: center;
 									justify-content: flex-start;
 									font-size: 14px;
+									cursor: default;
 									span {
 										@extend .semibold;
 										margin: 0 8px 0 0;
@@ -10132,7 +10146,7 @@ ul.colored-disc {
 	pointer-events: all;
 	@include media-max(md) {
 		width: 100%;
-		bottom: 40px;
+		bottom: 0px;
 		border-radius: 0;
 		box-shadow: none;
 		top: auto;
@@ -10195,6 +10209,7 @@ ul.colored-disc {
 					display: flex;
 					align-items: center;
 					justify-content: flex-start;
+					cursor: default;
 					@include media-max(md) {
 						font-size: 14px;
 					}

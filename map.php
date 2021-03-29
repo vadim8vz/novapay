@@ -2,7 +2,7 @@
 <!-- START CONTENT -->
 	<section class="content">
 		<div class="section section-mapmain">
-			<div id="map" style="width: 100%;height: 695px;position: absolute;left: 0;top: 0;"></div>
+			<div id="map" style="width: 100%;height: 100vh;position: absolute;left: 0;top: 0;"></div>
 			<div class="map-wrapper">
 				<div class="container">
 					<div class="find">Шукай фінансові послуги NovaPay у відділеннях Нової пошти</div>

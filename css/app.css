@@ -967,8 +967,12 @@ body.menu-opened {
 /** DEFAULT STYLES **/
 /** START HEADER **/
 header {
-  padding: 16px 0;
   position: relative;
+}
+@media (max-width: 991px) {
+  header {
+    padding: 16px 0;
+  }
 }
 @media (max-width: 767px) {
   header {
@@ -1200,13 +1204,16 @@ header ul li:nth-last-child(1) {
 header ul li.w-submenu:hover .submenu {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0) translateX(-50%);
+  transform: translateY(0px) translateX(-50%);
+  display: flex;
+  pointer-events: all;
 }
 header ul a {
   color: #4C5866;
   font-size: 14px;
   line-height: 17px;
-  padding: 8px 0;
+  padding: 32px 0;
+  display: flex;
   position: relative;
 }
 @media (max-width: 1230px) {
@@ -1217,7 +1224,7 @@ header ul a {
 header ul a:after {
   content: "";
   position: absolute;
-  top: 100%;
+  bottom: 25px;
   right: 0;
   height: 1.5px;
   left: auto;
@@ -1270,6 +1277,7 @@ header .submenu {
   overflow: hidden;
   padding: 40px;
   opacity: 0;
+  pointer-events: none;
   visibility: hidden;
 }
 header .submenu .menu-column {
@@ -1296,6 +1304,7 @@ header .submenu ul li a {
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
+  padding: 0;
   white-space: nowrap;
 }
 header .submenu ul li a:hover {
@@ -10494,13 +10503,20 @@ ul.colored-disc.mint li:after {
 
 .section-mapmain {
   position: relative;
-  min-height: 695px;
+  min-height: 100vh;
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .section-mapmain {
+    margin: 0 0 24px;
+  }
 }
 .section-mapmain .map-wrapper {
   position: relative;
   z-index: 4;
   pointer-events: none;
-  min-height: 695px;
+  min-height: 100vh;
+  height: 100%;
 }
 .section-mapmain .container {
   max-width: 996px;
@@ -10850,10 +10866,11 @@ ul.colored-disc.mint li:after {
   background: url("../img/map-pin-ico.svg") center no-repeat;
 }
 .section-mapmain .mobile-buttons {
-  position: absolute;
+  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
+  z-index: 9;
   background: rgba(255, 255, 255, 0.9);
 }
 @media (min-width: 767.02px) {
@@ -10916,7 +10933,7 @@ ul.colored-disc.mint li:after {
   max-height: 551px;
   height: 100%;
   overflow: auto;
-  padding: 24px 0;
+  padding: 24px 8px 24px 0;
 }
 @media (max-width: 767px) {
   .list-view .table-wrapper {
@@ -10933,7 +10950,7 @@ ul.colored-disc.mint li:after {
   border-radius: 4px;
 }
 .list-view .table-wrapper::-webkit-scrollbar-thumb {
-  background: #DD1D18;
+  background: #c2c7cc;
   width: 3px;
   border-radius: 4px;
 }
@@ -11057,6 +11074,7 @@ ul.colored-disc.mint li:after {
   align-items: center;
   justify-content: flex-start;
   font-size: 14px;
+  cursor: default;
 }
 .list-view table tbody tr td .graph ul li a span {
   margin: 0 8px 0 0;
@@ -11149,7 +11167,7 @@ ul.colored-disc.mint li:after {
 @media (max-width: 767px) {
   .map-modal {
     width: 100%;
-    bottom: 40px;
+    bottom: 0px;
     border-radius: 0;
     box-shadow: none;
     top: auto;
@@ -11225,6 +11243,7 @@ ul.colored-disc.mint li:after {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  cursor: default;
 }
 @media (max-width: 767px) {
   .map-modal .adress-body ul li a {
